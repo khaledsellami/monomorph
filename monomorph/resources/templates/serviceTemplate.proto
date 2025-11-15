@@ -1,0 +1,46 @@
+{# Jinja2 template for a base proto file #}
+{# Variables:
+    package_name:                   The proto package for the service class.
+    service_name:                   The name of the new service class.
+    class_name:                     The name of the class to be refactored.
+    refactor_id_package:            The package name for the refactored object ID.
+    references_mapping              A dictionary containing information about referenced API classes
+        references_mapping.dto:     A dictionary mapping classes that were refactored with the DTO pattern
+            c_name:                 The name of the class.
+            api_class:              Its metadata class.
+                client_name:        The name of the client class.
+                dto_name:           The simple name of the DTO class.
+                proto_package:      The package name of the DTO class.
+                mapper_name:        The fully qualified name of the mapper class.
+                proto_filename:     The name of the proto file that contains the DTO class.
+        references_mapping.idbased: A dictionary mapping classes that were refactored with the ID pattern (same as above)
+#}
+syntax = "proto3";
+
+package {{ package_name }};
+
+option java_multiple_files = true;
+option java_package = "{{ package_name }}";
+
+import "shared.proto";
+{% if references_mapping.dto %}
+    {% for c_name, c_api_class in references_mapping.dto.items() %}
+import "{{ c_api_class.proto_filename }}";
+    {% endfor %}
+{% endif %}
+
+service {{ service_name }} {
+    rpc createObject(CreateObjectRequest) returns ({{ refactor_id_package }}.RefactoredObjectID);
+    // add {{ class_name }} specified methods
+}
+
+message CreateObjectRequest {
+    string clientID = 1;
+    ConstructorArgs constructorArgs = 2;
+}
+
+message ConstructorArgs {
+    // Add fields for constructor arguments
+}
+
+// Add other messages and enums as needed

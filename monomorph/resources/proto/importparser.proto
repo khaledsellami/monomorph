@@ -1,0 +1,59 @@
+syntax = "proto3";
+
+package com.decomp.monomorph.grpc;
+
+option java_multiple_files = true; // Generate separate files for messages/service
+option java_package = "com.decomp.monomorph.grpc"; // Java package
+option java_outer_classname = "ImportParserProto";
+
+// The main refactoring service
+service ImportParserService {
+  // Mode 1: Single replacement in single target
+  rpc RefactorSingle(RefactorSingleRequest) returns (RefactorSingleResult);
+
+  // Mode 2: Multiple replacements in single target
+  rpc RefactorBatchTarget(RefactorBatchTargetRequest) returns (RefactorSingleResult);
+
+  // Mode 3: Multiple replacements across multiple targets (Streaming)
+  rpc RefactorAllTargets(RefactorAllRequest) returns (stream RefactorAllResult);
+}
+
+// --- Request Messages ---
+
+message RefactorSingleRequest {
+  string directory_path = 1;
+  string target_qualified_name = 2;
+  string old_qualified_name = 3;
+  string new_qualified_name = 4;
+}
+
+message RefactorBatchTargetRequest {
+  string directory_path = 1;
+  string target_qualified_name = 2;
+  ReplacementMap replacement_map = 3;
+}
+
+message ReplacementMap {
+  map<string, string> replacements = 1; // oldName -> newName
+}
+
+message RefactorAllRequest {
+  string directory_path = 1;
+  map<string, ReplacementMap> replacements_per_target = 2; // targetName -> ReplacementMap
+}
+
+
+// --- Response Messages ---
+
+// Result for single/batch-target modes
+message RefactorSingleResult {
+  int32 status = 1;
+  optional string modified_source = 2; // null if error
+  optional string error_message = 3; // Present if error is true
+}
+
+// Result message for the streaming RefactorAllTargets RPC
+message RefactorAllResult {
+  string target_qualified_name = 1;
+  RefactorSingleResult result = 2;
+}

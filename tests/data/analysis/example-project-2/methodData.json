@@ -1,0 +1,2607 @@
+{
+  "methods": [{
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "getClass",
+    "fullName": "com.example.library.models.Book::getClass()",
+    "returnType": "java.lang.Class",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object", "java.lang.Class", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["getClass", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final java.lang.Class\u003c?\u003e getClass() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "wait",
+    "fullName": "com.example.library.models.Book::wait(long)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["long"],
+    "referencedTypes": ["void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public native final void wait(long arg0) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "wait",
+    "fullName": "com.example.library.models.Book::wait(long,int)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0", "arg1"],
+    "parameterTypes": ["long", "int"],
+    "referencedTypes": ["int", "void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "arg1", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait(long arg0, int arg1) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "wait",
+    "fullName": "com.example.library.models.Book::wait()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "java.lang.InterruptedException"],
+    "textAndNames": ["wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait() throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "notifyAll",
+    "fullName": "com.example.library.models.Book::notifyAll()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notifyAll", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notifyAll() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "equals",
+    "fullName": "com.example.library.models.Book::equals(java.lang.Object)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["java.lang.Object"],
+    "referencedTypes": ["boolean", "java.lang.Object"],
+    "textAndNames": ["arg0", "equals", ""],
+    "appName": "example-project-2",
+    "content": "public boolean equals(java.lang.Object arg0) {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "getId",
+    "fullName": "com.example.library.models.Book::getId()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["com.example.library.models.Book", "java.lang.String"],
+    "textAndNames": ["getId", "", "id"],
+    "appName": "example-project-2",
+    "content": "public java.lang.String getId() {\n    return id;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 14,
+        "column": 5
+      },
+      "end": {
+        "line": 16,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "registerNatives",
+    "fullName": "com.example.library.models.Book::registerNatives()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void"],
+    "textAndNames": ["registerNatives", ""],
+    "appName": "example-project-2",
+    "content": "private static native void registerNatives() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "setBorrowed",
+    "fullName": "com.example.library.models.Book::setBorrowed(boolean)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["borrowed"],
+    "parameterTypes": ["boolean"],
+    "referencedTypes": ["void", "boolean", "com.example.library.models.Book"],
+    "textAndNames": ["borrowed", "setBorrowed", "", "isBorrowed", "borrowed"],
+    "appName": "example-project-2",
+    "content": "public void setBorrowed(boolean borrowed) {\n    isBorrowed \u003d borrowed;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 26,
+        "column": 5
+      },
+      "end": {
+        "line": 28,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "notify",
+    "fullName": "com.example.library.models.Book::notify()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notify", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notify() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "hashCode",
+    "fullName": "com.example.library.models.Book::hashCode()",
+    "returnType": "int",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["int", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["hashCode", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native int hashCode() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "getTitle",
+    "fullName": "com.example.library.models.Book::getTitle()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["com.example.library.models.Book", "java.lang.String"],
+    "textAndNames": ["getTitle", "", "title"],
+    "appName": "example-project-2",
+    "content": "public java.lang.String getTitle() {\n    return title;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 18,
+        "column": 5
+      },
+      "end": {
+        "line": 20,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "finalize",
+    "fullName": "com.example.library.models.Book::finalize()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Deprecated", "boolean", "void", "java.lang.String", "java.lang.Throwable"],
+    "textAndNames": ["finalize", ""],
+    "appName": "example-project-2",
+    "content": "@java.lang.Deprecated(forRemoval \u003d false, since \u003d \"9\")\nprotected void finalize() throws java.lang.Throwable {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "toString",
+    "fullName": "com.example.library.models.Book::toString()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["toString", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String toString() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "clone",
+    "fullName": "com.example.library.models.Book::clone()",
+    "returnType": "java.lang.Object",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.CloneNotSupportedException", "java.lang.Object", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["clone", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\nprotected native java.lang.Object clone() throws java.lang.CloneNotSupportedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "isBorrowed",
+    "fullName": "com.example.library.models.Book::isBorrowed()",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["boolean", "com.example.library.models.Book"],
+    "textAndNames": ["isBorrowed", "", "isBorrowed"],
+    "appName": "example-project-2",
+    "content": "public boolean isBorrowed() {\n    return isBorrowed;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 22,
+        "column": 5
+      },
+      "end": {
+        "line": 24,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": true,
+    "parentName": "com.example.library.models.Book",
+    "simpleName": "Book",
+    "fullName": "com.example.library.models.Book::com.example.library.models.Book(java.lang.String,java.lang.String)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "com.example.library.models.Book(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.models.Book",
+      "invokedMethod": "java.lang.Object()",
+      "invokedObject": "java.lang.Object",
+      "appName": "example-project-2"
+    }],
+    "parameterNames": ["id", "title"],
+    "parameterTypes": ["java.lang.String", "java.lang.String"],
+    "referencedTypes": ["boolean", "java.lang.Object", "com.example.library.models.Book", "java.lang.String"],
+    "textAndNames": ["id", "id", "title", "title", "isBorrowed"],
+    "appName": "example-project-2",
+    "content": "public Book(java.lang.String id, java.lang.String title) {\n    this.id \u003d id;\n    this.title \u003d title;\n    this.isBorrowed \u003d false;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 8,
+        "column": 5
+      },
+      "end": {
+        "line": 12,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "getName",
+    "fullName": "com.example.library.models.User::getName()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["com.example.library.models.User", "java.lang.String"],
+    "textAndNames": ["getName", "", "name"],
+    "appName": "example-project-2",
+    "content": "public java.lang.String getName() {\n    return name;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 16,
+        "column": 5
+      },
+      "end": {
+        "line": 18,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "getClass",
+    "fullName": "com.example.library.models.User::getClass()",
+    "returnType": "java.lang.Class",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object", "java.lang.Class", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["getClass", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final java.lang.Class\u003c?\u003e getClass() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "wait",
+    "fullName": "com.example.library.models.User::wait(long)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["long"],
+    "referencedTypes": ["void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public native final void wait(long arg0) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "wait",
+    "fullName": "com.example.library.models.User::wait(long,int)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0", "arg1"],
+    "parameterTypes": ["long", "int"],
+    "referencedTypes": ["int", "void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "arg1", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait(long arg0, int arg1) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "wait",
+    "fullName": "com.example.library.models.User::wait()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "java.lang.InterruptedException"],
+    "textAndNames": ["wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait() throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "notifyAll",
+    "fullName": "com.example.library.models.User::notifyAll()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notifyAll", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notifyAll() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "equals",
+    "fullName": "com.example.library.models.User::equals(java.lang.Object)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["java.lang.Object"],
+    "referencedTypes": ["boolean", "java.lang.Object"],
+    "textAndNames": ["arg0", "equals", ""],
+    "appName": "example-project-2",
+    "content": "public boolean equals(java.lang.Object arg0) {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "getId",
+    "fullName": "com.example.library.models.User::getId()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["com.example.library.models.User", "java.lang.String"],
+    "textAndNames": ["getId", "", "id"],
+    "appName": "example-project-2",
+    "content": "public java.lang.String getId() {\n    return id;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 12,
+        "column": 5
+      },
+      "end": {
+        "line": 14,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "registerNatives",
+    "fullName": "com.example.library.models.User::registerNatives()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void"],
+    "textAndNames": ["registerNatives", ""],
+    "appName": "example-project-2",
+    "content": "private static native void registerNatives() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "notify",
+    "fullName": "com.example.library.models.User::notify()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notify", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notify() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "hashCode",
+    "fullName": "com.example.library.models.User::hashCode()",
+    "returnType": "int",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["int", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["hashCode", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native int hashCode() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "finalize",
+    "fullName": "com.example.library.models.User::finalize()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Deprecated", "boolean", "void", "java.lang.String", "java.lang.Throwable"],
+    "textAndNames": ["finalize", ""],
+    "appName": "example-project-2",
+    "content": "@java.lang.Deprecated(forRemoval \u003d false, since \u003d \"9\")\nprotected void finalize() throws java.lang.Throwable {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "toString",
+    "fullName": "com.example.library.models.User::toString()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["toString", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String toString() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "clone",
+    "fullName": "com.example.library.models.User::clone()",
+    "returnType": "java.lang.Object",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.CloneNotSupportedException", "java.lang.Object", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["clone", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\nprotected native java.lang.Object clone() throws java.lang.CloneNotSupportedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": true,
+    "parentName": "com.example.library.models.User",
+    "simpleName": "User",
+    "fullName": "com.example.library.models.User::com.example.library.models.User(java.lang.String,java.lang.String)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "com.example.library.models.User(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.models.User",
+      "invokedMethod": "java.lang.Object()",
+      "invokedObject": "java.lang.Object",
+      "appName": "example-project-2"
+    }],
+    "parameterNames": ["id", "name"],
+    "parameterTypes": ["java.lang.String", "java.lang.String"],
+    "referencedTypes": ["com.example.library.models.User", "java.lang.Object", "java.lang.String"],
+    "textAndNames": ["id", "id", "name", "name"],
+    "appName": "example-project-2",
+    "content": "public User(java.lang.String id, java.lang.String name) {\n    this.id \u003d id;\n    this.name \u003d name;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 7,
+        "column": 5
+      },
+      "end": {
+        "line": 10,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BasicService",
+    "simpleName": "whatIsMyName",
+    "fullName": "com.example.library.services.BasicService::whatIsMyName()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["whatIsMyName", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String whatIsMyName();",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 6,
+        "column": 5
+      },
+      "end": {
+        "line": 6,
+        "column": 33
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "getClass",
+    "fullName": "com.example.library.services.BorrowService::getClass()",
+    "returnType": "java.lang.Class",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object", "java.lang.Class", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["getClass", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final java.lang.Class\u003c?\u003e getClass() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.BorrowService::wait(long)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["long"],
+    "referencedTypes": ["void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public native final void wait(long arg0) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.BorrowService::wait(long,int)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0", "arg1"],
+    "parameterTypes": ["long", "int"],
+    "referencedTypes": ["int", "void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "arg1", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait(long arg0, int arg1) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.BorrowService::wait()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "java.lang.InterruptedException"],
+    "textAndNames": ["wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait() throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "notifyAll",
+    "fullName": "com.example.library.services.BorrowService::notifyAll()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notifyAll", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notifyAll() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "equals",
+    "fullName": "com.example.library.services.BorrowService::equals(java.lang.Object)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["java.lang.Object"],
+    "referencedTypes": ["boolean", "java.lang.Object"],
+    "textAndNames": ["arg0", "equals", ""],
+    "appName": "example-project-2",
+    "content": "public boolean equals(java.lang.Object arg0) {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "registerNatives",
+    "fullName": "com.example.library.services.BorrowService::registerNatives()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void"],
+    "textAndNames": ["registerNatives", ""],
+    "appName": "example-project-2",
+    "content": "private static native void registerNatives() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "notify",
+    "fullName": "com.example.library.services.BorrowService::notify()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notify", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notify() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "hashCode",
+    "fullName": "com.example.library.services.BorrowService::hashCode()",
+    "returnType": "int",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["int", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["hashCode", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native int hashCode() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "borrowBook",
+    "fullName": "com.example.library.services.BorrowService::borrowBook(java.lang.String,java.lang.String)",
+    "returnType": "boolean",
+    "localInvocations": [{
+      "local": true,
+      "invokingMethod": "borrowBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.BorrowService",
+      "invokedMethod": "findUserById(java.lang.String)",
+      "invokedObject": "com.example.library.Library",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 17,
+          "column": 21
+        },
+        "end": {
+          "line": 17,
+          "column": 48
+        }
+      }
+    }, {
+      "local": true,
+      "invokingMethod": "borrowBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.BorrowService",
+      "invokedMethod": "findBookById(java.lang.String)",
+      "invokedObject": "com.example.library.Library",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 18,
+          "column": 21
+        },
+        "end": {
+          "line": 18,
+          "column": 48
+        }
+      }
+    }, {
+      "local": true,
+      "invokingMethod": "borrowBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.BorrowService",
+      "invokedMethod": "isBorrowed()",
+      "invokedObject": "com.example.library.models.Book",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 20,
+          "column": 46
+        },
+        "end": {
+          "line": 20,
+          "column": 62
+        }
+      }
+    }, {
+      "local": true,
+      "invokingMethod": "borrowBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.BorrowService",
+      "invokedMethod": "setBorrowed(boolean)",
+      "invokedObject": "com.example.library.models.Book",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 21,
+          "column": 13
+        },
+        "end": {
+          "line": 21,
+          "column": 35
+        }
+      }
+    }, {
+      "local": true,
+      "invokingMethod": "borrowBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.BorrowService",
+      "invokedMethod": "getTitle()",
+      "invokedObject": "com.example.library.models.Book",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 22,
+          "column": 89
+        },
+        "end": {
+          "line": 22,
+          "column": 103
+        }
+      }
+    }, {
+      "local": true,
+      "invokingMethod": "borrowBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.BorrowService",
+      "invokedMethod": "sendNotification(com.example.library.models.User,java.lang.String)",
+      "invokedObject": "com.example.library.services.NotificationService",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 22,
+          "column": 13
+        },
+        "end": {
+          "line": 22,
+          "column": 105
+        }
+      }
+    }],
+    "invocations": [],
+    "parameterNames": ["userId", "bookId"],
+    "parameterTypes": ["java.lang.String", "java.lang.String"],
+    "referencedTypes": ["boolean", "com.example.library.models.User", "com.example.library.models.Book", "java.lang.String", "com.example.library.services.NotificationService", "com.example.library.Library", "\u003cnulltype\u003e", "com.example.library.services.BorrowService"],
+    "textAndNames": ["userId", "bookId", "borrowBook", "", "library", "userId", "library", "bookId", "user", "book", "book", "book", "notificationService", "user", "book"],
+    "appName": "example-project-2",
+    "content": "public boolean borrowBook(java.lang.String userId, java.lang.String bookId) {\n    com.example.library.models.User user \u003d library.findUserById(userId);\n    com.example.library.models.Book book \u003d library.findBookById(bookId);\n    if (((user !\u003d null) \u0026\u0026 (book !\u003d null)) \u0026\u0026 (!book.isBorrowed())) {\n        book.setBorrowed(true);\n        notificationService.sendNotification(user, \"You have borrowed the book: \" + book.getTitle());\n        return true;\n    }\n    return false;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 16,
+        "column": 5
+      },
+      "end": {
+        "line": 26,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "finalize",
+    "fullName": "com.example.library.services.BorrowService::finalize()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Deprecated", "boolean", "void", "java.lang.String", "java.lang.Throwable"],
+    "textAndNames": ["finalize", ""],
+    "appName": "example-project-2",
+    "content": "@java.lang.Deprecated(forRemoval \u003d false, since \u003d \"9\")\nprotected void finalize() throws java.lang.Throwable {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "toString",
+    "fullName": "com.example.library.services.BorrowService::toString()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["toString", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String toString() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "clone",
+    "fullName": "com.example.library.services.BorrowService::clone()",
+    "returnType": "java.lang.Object",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.CloneNotSupportedException", "java.lang.Object", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["clone", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\nprotected native java.lang.Object clone() throws java.lang.CloneNotSupportedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": true,
+    "parentName": "com.example.library.services.BorrowService",
+    "simpleName": "BorrowService",
+    "fullName": "com.example.library.services.BorrowService::com.example.library.services.BorrowService(com.example.library.Library,com.example.library.services.NotificationService)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "com.example.library.services.BorrowService(com.example.library.Library,com.example.library.services.NotificationService)",
+      "invokingObject": "com.example.library.services.BorrowService",
+      "invokedMethod": "java.lang.Object()",
+      "invokedObject": "java.lang.Object",
+      "appName": "example-project-2"
+    }],
+    "parameterNames": ["library", "notificationService"],
+    "parameterTypes": ["com.example.library.Library", "com.example.library.services.NotificationService"],
+    "referencedTypes": ["java.lang.Object", "com.example.library.services.NotificationService", "com.example.library.Library", "com.example.library.services.BorrowService"],
+    "textAndNames": ["library", "library", "notificationService", "notificationService"],
+    "appName": "example-project-2",
+    "content": "public BorrowService(com.example.library.Library library, com.example.library.services.NotificationService notificationService) {\n    this.library \u003d library;\n    this.notificationService \u003d notificationService;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 11,
+        "column": 5
+      },
+      "end": {
+        "line": 14,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "getClass",
+    "fullName": "com.example.library.services.CustomBorrowService::getClass()",
+    "returnType": "java.lang.Class",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object", "java.lang.Class", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["getClass", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final java.lang.Class\u003c?\u003e getClass() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.CustomBorrowService::wait(long)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["long"],
+    "referencedTypes": ["void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public native final void wait(long arg0) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.CustomBorrowService::wait(long,int)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0", "arg1"],
+    "parameterTypes": ["long", "int"],
+    "referencedTypes": ["int", "void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "arg1", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait(long arg0, int arg1) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.CustomBorrowService::wait()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "java.lang.InterruptedException"],
+    "textAndNames": ["wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait() throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "notifyAll",
+    "fullName": "com.example.library.services.CustomBorrowService::notifyAll()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notifyAll", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notifyAll() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "equals",
+    "fullName": "com.example.library.services.CustomBorrowService::equals(java.lang.Object)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["java.lang.Object"],
+    "referencedTypes": ["boolean", "java.lang.Object"],
+    "textAndNames": ["arg0", "equals", ""],
+    "appName": "example-project-2",
+    "content": "public boolean equals(java.lang.Object arg0) {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "registerNatives",
+    "fullName": "com.example.library.services.CustomBorrowService::registerNatives()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void"],
+    "textAndNames": ["registerNatives", ""],
+    "appName": "example-project-2",
+    "content": "private static native void registerNatives() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "notify",
+    "fullName": "com.example.library.services.CustomBorrowService::notify()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notify", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notify() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "returnBook",
+    "fullName": "com.example.library.services.CustomBorrowService::returnBook(java.lang.String,java.lang.String)",
+    "returnType": "boolean",
+    "localInvocations": [{
+      "local": true,
+      "invokingMethod": "returnBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.CustomBorrowService",
+      "invokedMethod": "setBorrowed(boolean)",
+      "invokedObject": "com.example.library.models.Book",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 15,
+          "column": 9
+        },
+        "end": {
+          "line": 15,
+          "column": 32
+        }
+      }
+    }, {
+      "local": true,
+      "invokingMethod": "returnBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.CustomBorrowService",
+      "invokedMethod": "getTitle()",
+      "invokedObject": "com.example.library.models.Book",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 16,
+          "column": 85
+        },
+        "end": {
+          "line": 16,
+          "column": 99
+        }
+      }
+    }],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "returnBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.CustomBorrowService",
+      "invokedMethod": "findUserById(java.lang.String)",
+      "invokedObject": "com.example.library.services.library",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 13,
+          "column": 21
+        },
+        "end": {
+          "line": 13,
+          "column": 48
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "returnBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.CustomBorrowService",
+      "invokedMethod": "findBookById(java.lang.String)",
+      "invokedObject": "com.example.library.services.library",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 14,
+          "column": 21
+        },
+        "end": {
+          "line": 14,
+          "column": 48
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "returnBook(java.lang.String,java.lang.String)",
+      "invokingObject": "com.example.library.services.CustomBorrowService",
+      "invokedMethod": "sendNotification(com.example.library.models.User,java.lang.String)",
+      "invokedObject": "com.example.library.services.notificationService",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 16,
+          "column": 9
+        },
+        "end": {
+          "line": 16,
+          "column": 101
+        }
+      }
+    }],
+    "parameterNames": ["userId", "bookId"],
+    "parameterTypes": ["java.lang.String", "java.lang.String"],
+    "referencedTypes": ["boolean", "com.example.library.models.User", "com.example.library.services.library", "com.example.library.models.Book", "com.example.library.services.notificationService", "java.lang.String", "com.example.library.services.CustomBorrowService", "com.example.library.services.BorrowService"],
+    "textAndNames": ["userId", "bookId", "returnBook", "", "library", "userId", "library", "bookId", "book", "notificationService", "user", "book"],
+    "appName": "example-project-2",
+    "content": "public boolean returnBook(java.lang.String userId, java.lang.String bookId) {\n    com.example.library.models.User user \u003d library.findUserById(userId);\n    com.example.library.models.Book book \u003d library.findBookById(bookId);\n    book.setBorrowed(false);\n    notificationService.sendNotification(user, \"You have returned the book: \" + book.getTitle());\n    return true;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 12,
+        "column": 5
+      },
+      "end": {
+        "line": 18,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "hashCode",
+    "fullName": "com.example.library.services.CustomBorrowService::hashCode()",
+    "returnType": "int",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["int", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["hashCode", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native int hashCode() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "borrowBook",
+    "fullName": "com.example.library.services.CustomBorrowService::borrowBook(java.lang.String,java.lang.String)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["userId", "bookId"],
+    "parameterTypes": ["java.lang.String", "java.lang.String"],
+    "referencedTypes": ["boolean", "com.example.library.models.User", "com.example.library.models.Book", "java.lang.String", "com.example.library.services.NotificationService", "com.example.library.Library", "\u003cnulltype\u003e", "com.example.library.services.BorrowService"],
+    "textAndNames": ["userId", "bookId", "borrowBook", "", "library", "userId", "library", "bookId", "user", "book", "book", "book", "notificationService", "user", "book"],
+    "appName": "example-project-2",
+    "content": "public boolean borrowBook(java.lang.String userId, java.lang.String bookId) {\n    com.example.library.models.User user \u003d library.findUserById(userId);\n    com.example.library.models.Book book \u003d library.findBookById(bookId);\n    if (((user !\u003d null) \u0026\u0026 (book !\u003d null)) \u0026\u0026 (!book.isBorrowed())) {\n        book.setBorrowed(true);\n        notificationService.sendNotification(user, \"You have borrowed the book: \" + book.getTitle());\n        return true;\n    }\n    return false;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 16,
+        "column": 5
+      },
+      "end": {
+        "line": 26,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "finalize",
+    "fullName": "com.example.library.services.CustomBorrowService::finalize()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Deprecated", "boolean", "void", "java.lang.String", "java.lang.Throwable"],
+    "textAndNames": ["finalize", ""],
+    "appName": "example-project-2",
+    "content": "@java.lang.Deprecated(forRemoval \u003d false, since \u003d \"9\")\nprotected void finalize() throws java.lang.Throwable {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "toString",
+    "fullName": "com.example.library.services.CustomBorrowService::toString()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["toString", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String toString() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "clone",
+    "fullName": "com.example.library.services.CustomBorrowService::clone()",
+    "returnType": "java.lang.Object",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.CloneNotSupportedException", "java.lang.Object", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["clone", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\nprotected native java.lang.Object clone() throws java.lang.CloneNotSupportedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": true,
+    "parentName": "com.example.library.services.CustomBorrowService",
+    "simpleName": "CustomBorrowService",
+    "fullName": "com.example.library.services.CustomBorrowService::com.example.library.services.CustomBorrowService(com.example.library.Library,com.example.library.services.NotificationService)",
+    "returnType": "void",
+    "localInvocations": [{
+      "local": true,
+      "invokingMethod": "com.example.library.services.CustomBorrowService(com.example.library.Library,com.example.library.services.NotificationService)",
+      "invokingObject": "com.example.library.services.CustomBorrowService",
+      "invokedMethod": "com.example.library.services.BorrowService(com.example.library.Library,com.example.library.services.NotificationService)",
+      "invokedObject": "com.example.library.services.BorrowService",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 9,
+          "column": 9
+        },
+        "end": {
+          "line": 9,
+          "column": 44
+        }
+      }
+    }],
+    "invocations": [],
+    "parameterNames": ["library", "notificationService"],
+    "parameterTypes": ["com.example.library.Library", "com.example.library.services.NotificationService"],
+    "referencedTypes": ["com.example.library.services.NotificationService", "com.example.library.Library", "com.example.library.services.BorrowService"],
+    "textAndNames": ["library", "notificationService"],
+    "appName": "example-project-2",
+    "content": "public CustomBorrowService(com.example.library.Library library, com.example.library.services.NotificationService notificationService) {\n    super(library, notificationService);\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 8,
+        "column": 5
+      },
+      "end": {
+        "line": 10,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedBasicService",
+    "simpleName": "changeMyName",
+    "fullName": "com.example.library.services.ExtendedBasicService::changeMyName(java.lang.String)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["newName"],
+    "parameterTypes": ["java.lang.String"],
+    "referencedTypes": ["void", "java.lang.String"],
+    "textAndNames": ["newName", "changeMyName", ""],
+    "appName": "example-project-2",
+    "content": "public void changeMyName(java.lang.String newName);",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 8,
+        "column": 5
+      },
+      "end": {
+        "line": 8,
+        "column": 45
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedBasicService",
+    "simpleName": "whatIsMyName",
+    "fullName": "com.example.library.services.ExtendedBasicService::whatIsMyName()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["whatIsMyName", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String whatIsMyName();",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 6,
+        "column": 5
+      },
+      "end": {
+        "line": 6,
+        "column": 33
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "getClass",
+    "fullName": "com.example.library.services.ExtendedNotificationService::getClass()",
+    "returnType": "java.lang.Class",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object", "java.lang.Class", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["getClass", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final java.lang.Class\u003c?\u003e getClass() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.ExtendedNotificationService::wait(long)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["long"],
+    "referencedTypes": ["void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public native final void wait(long arg0) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.ExtendedNotificationService::wait(long,int)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0", "arg1"],
+    "parameterTypes": ["long", "int"],
+    "referencedTypes": ["int", "void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "arg1", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait(long arg0, int arg1) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.ExtendedNotificationService::wait()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "java.lang.InterruptedException"],
+    "textAndNames": ["wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait() throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "notifyAll",
+    "fullName": "com.example.library.services.ExtendedNotificationService::notifyAll()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notifyAll", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notifyAll() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "equals",
+    "fullName": "com.example.library.services.ExtendedNotificationService::equals(java.lang.Object)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["java.lang.Object"],
+    "referencedTypes": ["boolean", "java.lang.Object"],
+    "textAndNames": ["arg0", "equals", ""],
+    "appName": "example-project-2",
+    "content": "public boolean equals(java.lang.Object arg0) {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "registerNatives",
+    "fullName": "com.example.library.services.ExtendedNotificationService::registerNatives()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void"],
+    "textAndNames": ["registerNatives", ""],
+    "appName": "example-project-2",
+    "content": "private static native void registerNatives() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "sendNotification",
+    "fullName": "com.example.library.services.ExtendedNotificationService::sendNotification(com.example.library.models.User,java.lang.String)",
+    "returnType": "void",
+    "localInvocations": [{
+      "local": true,
+      "invokingMethod": "sendNotification(com.example.library.models.User,java.lang.String)",
+      "invokingObject": "com.example.library.services.ExtendedNotificationService",
+      "invokedMethod": "getName()",
+      "invokedObject": "com.example.library.models.User",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 7,
+          "column": 49
+        },
+        "end": {
+          "line": 7,
+          "column": 62
+        }
+      }
+    }],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "sendNotification(com.example.library.models.User,java.lang.String)",
+      "invokingObject": "com.example.library.services.ExtendedNotificationService",
+      "invokedMethod": "println(java.lang.String)",
+      "invokedObject": "java.io.PrintStream",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 7,
+          "column": 9
+        },
+        "end": {
+          "line": 7,
+          "column": 81
+        }
+      }
+    }],
+    "parameterNames": ["user", "message"],
+    "parameterTypes": ["com.example.library.models.User", "java.lang.String"],
+    "referencedTypes": ["java.lang.System", "void", "java.io.PrintStream", "com.example.library.models.User", "java.lang.String"],
+    "textAndNames": ["user", "message", "sendNotification", "", "out", "user", "message"],
+    "appName": "example-project-2",
+    "content": "public void sendNotification(com.example.library.models.User user, java.lang.String message) {\n    java.lang.System.out.println(((\"Notification to \" + user.getName()) + \": \") + message);\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 6,
+        "column": 5
+      },
+      "end": {
+        "line": 8,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "notify",
+    "fullName": "com.example.library.services.ExtendedNotificationService::notify()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notify", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notify() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "whatIsMyName",
+    "fullName": "com.example.library.services.ExtendedNotificationService::whatIsMyName()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["whatIsMyName", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String whatIsMyName() {\n    return \"NotificationService\";\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 10,
+        "column": 5
+      },
+      "end": {
+        "line": 12,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "changeMyName",
+    "fullName": "com.example.library.services.ExtendedNotificationService::changeMyName(java.lang.String)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["newName"],
+    "parameterTypes": ["java.lang.String"],
+    "referencedTypes": ["void", "java.lang.String"],
+    "textAndNames": ["newName", "changeMyName", ""],
+    "appName": "example-project-2",
+    "content": "public void changeMyName(java.lang.String newName) {\n    return;\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 14,
+        "column": 5
+      },
+      "end": {
+        "line": 16,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "hashCode",
+    "fullName": "com.example.library.services.ExtendedNotificationService::hashCode()",
+    "returnType": "int",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["int", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["hashCode", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native int hashCode() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "finalize",
+    "fullName": "com.example.library.services.ExtendedNotificationService::finalize()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Deprecated", "boolean", "void", "java.lang.String", "java.lang.Throwable"],
+    "textAndNames": ["finalize", ""],
+    "appName": "example-project-2",
+    "content": "@java.lang.Deprecated(forRemoval \u003d false, since \u003d \"9\")\nprotected void finalize() throws java.lang.Throwable {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "toString",
+    "fullName": "com.example.library.services.ExtendedNotificationService::toString()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["toString", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String toString() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "clone",
+    "fullName": "com.example.library.services.ExtendedNotificationService::clone()",
+    "returnType": "java.lang.Object",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.CloneNotSupportedException", "java.lang.Object", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["clone", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\nprotected native java.lang.Object clone() throws java.lang.CloneNotSupportedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": true,
+    "parentName": "com.example.library.services.ExtendedNotificationService",
+    "simpleName": "ExtendedNotificationService",
+    "fullName": "com.example.library.services.ExtendedNotificationService::com.example.library.services.ExtendedNotificationService()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "com.example.library.services.ExtendedNotificationService()",
+      "invokingObject": "com.example.library.services.ExtendedNotificationService",
+      "invokedMethod": "java.lang.Object()",
+      "invokedObject": "java.lang.Object",
+      "appName": "example-project-2"
+    }],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object"],
+    "textAndNames": [],
+    "appName": "example-project-2",
+    "content": "ExtendedNotificationService() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "getClass",
+    "fullName": "com.example.library.services.NotificationService::getClass()",
+    "returnType": "java.lang.Class",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object", "java.lang.Class", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["getClass", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final java.lang.Class\u003c?\u003e getClass() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.NotificationService::wait(long)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["long"],
+    "referencedTypes": ["void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public native final void wait(long arg0) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.NotificationService::wait(long,int)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0", "arg1"],
+    "parameterTypes": ["long", "int"],
+    "referencedTypes": ["int", "void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "arg1", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait(long arg0, int arg1) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "wait",
+    "fullName": "com.example.library.services.NotificationService::wait()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "java.lang.InterruptedException"],
+    "textAndNames": ["wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait() throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "notifyAll",
+    "fullName": "com.example.library.services.NotificationService::notifyAll()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notifyAll", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notifyAll() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "equals",
+    "fullName": "com.example.library.services.NotificationService::equals(java.lang.Object)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["java.lang.Object"],
+    "referencedTypes": ["boolean", "java.lang.Object"],
+    "textAndNames": ["arg0", "equals", ""],
+    "appName": "example-project-2",
+    "content": "public boolean equals(java.lang.Object arg0) {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "registerNatives",
+    "fullName": "com.example.library.services.NotificationService::registerNatives()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void"],
+    "textAndNames": ["registerNatives", ""],
+    "appName": "example-project-2",
+    "content": "private static native void registerNatives() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "sendNotification",
+    "fullName": "com.example.library.services.NotificationService::sendNotification(com.example.library.models.User,java.lang.String)",
+    "returnType": "void",
+    "localInvocations": [{
+      "local": true,
+      "invokingMethod": "sendNotification(com.example.library.models.User,java.lang.String)",
+      "invokingObject": "com.example.library.services.NotificationService",
+      "invokedMethod": "getName()",
+      "invokedObject": "com.example.library.models.User",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 7,
+          "column": 49
+        },
+        "end": {
+          "line": 7,
+          "column": 62
+        }
+      }
+    }],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "sendNotification(com.example.library.models.User,java.lang.String)",
+      "invokingObject": "com.example.library.services.NotificationService",
+      "invokedMethod": "println(java.lang.String)",
+      "invokedObject": "java.io.PrintStream",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 7,
+          "column": 9
+        },
+        "end": {
+          "line": 7,
+          "column": 81
+        }
+      }
+    }],
+    "parameterNames": ["user", "message"],
+    "parameterTypes": ["com.example.library.models.User", "java.lang.String"],
+    "referencedTypes": ["java.lang.System", "void", "java.io.PrintStream", "com.example.library.models.User", "java.lang.String"],
+    "textAndNames": ["user", "message", "sendNotification", "", "out", "user", "message"],
+    "appName": "example-project-2",
+    "content": "public void sendNotification(com.example.library.models.User user, java.lang.String message) {\n    java.lang.System.out.println(((\"Notification to \" + user.getName()) + \": \") + message);\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 6,
+        "column": 5
+      },
+      "end": {
+        "line": 8,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "notify",
+    "fullName": "com.example.library.services.NotificationService::notify()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notify", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notify() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "whatIsMyName",
+    "fullName": "com.example.library.services.NotificationService::whatIsMyName()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["whatIsMyName", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String whatIsMyName() {\n    return \"NotificationService\";\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 10,
+        "column": 5
+      },
+      "end": {
+        "line": 12,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "hashCode",
+    "fullName": "com.example.library.services.NotificationService::hashCode()",
+    "returnType": "int",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["int", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["hashCode", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native int hashCode() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "finalize",
+    "fullName": "com.example.library.services.NotificationService::finalize()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Deprecated", "boolean", "void", "java.lang.String", "java.lang.Throwable"],
+    "textAndNames": ["finalize", ""],
+    "appName": "example-project-2",
+    "content": "@java.lang.Deprecated(forRemoval \u003d false, since \u003d \"9\")\nprotected void finalize() throws java.lang.Throwable {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "toString",
+    "fullName": "com.example.library.services.NotificationService::toString()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["toString", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String toString() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "clone",
+    "fullName": "com.example.library.services.NotificationService::clone()",
+    "returnType": "java.lang.Object",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.CloneNotSupportedException", "java.lang.Object", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["clone", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\nprotected native java.lang.Object clone() throws java.lang.CloneNotSupportedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": true,
+    "parentName": "com.example.library.services.NotificationService",
+    "simpleName": "NotificationService",
+    "fullName": "com.example.library.services.NotificationService::com.example.library.services.NotificationService()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "com.example.library.services.NotificationService()",
+      "invokingObject": "com.example.library.services.NotificationService",
+      "invokedMethod": "java.lang.Object()",
+      "invokedObject": "java.lang.Object",
+      "appName": "example-project-2"
+    }],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object"],
+    "textAndNames": [],
+    "appName": "example-project-2",
+    "content": "NotificationService() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "getClass",
+    "fullName": "com.example.library.Library::getClass()",
+    "returnType": "java.lang.Class",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Object", "java.lang.Class", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["getClass", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final java.lang.Class\u003c?\u003e getClass() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "wait",
+    "fullName": "com.example.library.Library::wait(long)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["long"],
+    "referencedTypes": ["void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public native final void wait(long arg0) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "wait",
+    "fullName": "com.example.library.Library::wait(long,int)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0", "arg1"],
+    "parameterTypes": ["long", "int"],
+    "referencedTypes": ["int", "void", "java.lang.InterruptedException", "long"],
+    "textAndNames": ["arg0", "arg1", "wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait(long arg0, int arg1) throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "wait",
+    "fullName": "com.example.library.Library::wait()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "java.lang.InterruptedException"],
+    "textAndNames": ["wait", ""],
+    "appName": "example-project-2",
+    "content": "public final void wait() throws java.lang.InterruptedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "notifyAll",
+    "fullName": "com.example.library.Library::notifyAll()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notifyAll", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notifyAll() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "equals",
+    "fullName": "com.example.library.Library::equals(java.lang.Object)",
+    "returnType": "boolean",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": ["arg0"],
+    "parameterTypes": ["java.lang.Object"],
+    "referencedTypes": ["boolean", "java.lang.Object"],
+    "textAndNames": ["arg0", "equals", ""],
+    "appName": "example-project-2",
+    "content": "public boolean equals(java.lang.Object arg0) {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "registerNatives",
+    "fullName": "com.example.library.Library::registerNatives()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void"],
+    "textAndNames": ["registerNatives", ""],
+    "appName": "example-project-2",
+    "content": "private static native void registerNatives() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "addBook",
+    "fullName": "com.example.library.Library::addBook(com.example.library.models.Book)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "addBook(com.example.library.models.Book)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "add(java.lang.Object)",
+      "invokedObject": "java.util.List",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 19,
+          "column": 9
+        },
+        "end": {
+          "line": 19,
+          "column": 24
+        }
+      }
+    }],
+    "parameterNames": ["book"],
+    "parameterTypes": ["com.example.library.models.Book"],
+    "referencedTypes": ["void", "com.example.library.models.Book", "java.util.List", "com.example.library.Library"],
+    "textAndNames": ["book", "addBook", "", "books", "book"],
+    "appName": "example-project-2",
+    "content": "public void addBook(com.example.library.models.Book book) {\n    books.add(book);\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 18,
+        "column": 5
+      },
+      "end": {
+        "line": 20,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "notify",
+    "fullName": "com.example.library.Library::notify()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["void", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["notify", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native final void notify() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "hashCode",
+    "fullName": "com.example.library.Library::hashCode()",
+    "returnType": "int",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["int", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["hashCode", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\npublic native int hashCode() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "findBookById",
+    "fullName": "com.example.library.Library::findBookById(java.lang.String)",
+    "returnType": "com.example.library.models.Book",
+    "localInvocations": [{
+      "local": true,
+      "invokingMethod": "findBookById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "getId()",
+      "invokedObject": "com.example.library.models.Book",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 28,
+          "column": 33
+        },
+        "end": {
+          "line": 28,
+          "column": 44
+        }
+      }
+    }],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "findBookById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "stream()",
+      "invokedObject": "java.util.Collection",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 27,
+          "column": 16
+        },
+        "end": {
+          "line": 27,
+          "column": 29
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findBookById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "equals(java.lang.Object)",
+      "invokedObject": "java.lang.String",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 28,
+          "column": 33
+        },
+        "end": {
+          "line": 28,
+          "column": 55
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findBookById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "filter(java.util.function.Predicate)",
+      "invokedObject": "java.util.stream.Stream",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 27,
+          "column": 16
+        },
+        "end": {
+          "line": 28,
+          "column": 56
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findBookById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "findFirst()",
+      "invokedObject": "java.util.stream.Stream",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 27,
+          "column": 16
+        },
+        "end": {
+          "line": 29,
+          "column": 28
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findBookById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "orElse(java.lang.Object)",
+      "invokedObject": "java.util.Optional",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 27,
+          "column": 16
+        },
+        "end": {
+          "line": 30,
+          "column": 29
+        }
+      }
+    }],
+    "parameterNames": ["id"],
+    "parameterTypes": ["java.lang.String"],
+    "referencedTypes": ["java.util.function.Predicate", "com.example.library.models.Book", "java.util.Optional", "java.lang.String", "java.util.Collection", "java.util.stream.Stream", "com.example.library.Library", "\u003cnulltype\u003e"],
+    "textAndNames": ["id", "findBookById", "", "books", "book", "id"],
+    "appName": "example-project-2",
+    "content": "public com.example.library.models.Book findBookById(java.lang.String id) {\n    return books.stream().filter(book -\u003e book.getId().equals(id)).findFirst().orElse(null);\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 26,
+        "column": 5
+      },
+      "end": {
+        "line": 31,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "findUserById",
+    "fullName": "com.example.library.Library::findUserById(java.lang.String)",
+    "returnType": "com.example.library.models.User",
+    "localInvocations": [{
+      "local": true,
+      "invokingMethod": "findUserById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "getId()",
+      "invokedObject": "com.example.library.models.User",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 35,
+          "column": 33
+        },
+        "end": {
+          "line": 35,
+          "column": 44
+        }
+      }
+    }],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "findUserById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "stream()",
+      "invokedObject": "java.util.Collection",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 34,
+          "column": 16
+        },
+        "end": {
+          "line": 34,
+          "column": 29
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findUserById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "equals(java.lang.Object)",
+      "invokedObject": "java.lang.String",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 35,
+          "column": 33
+        },
+        "end": {
+          "line": 35,
+          "column": 55
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findUserById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "filter(java.util.function.Predicate)",
+      "invokedObject": "java.util.stream.Stream",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 34,
+          "column": 16
+        },
+        "end": {
+          "line": 35,
+          "column": 56
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findUserById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "findFirst()",
+      "invokedObject": "java.util.stream.Stream",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 34,
+          "column": 16
+        },
+        "end": {
+          "line": 36,
+          "column": 28
+        }
+      }
+    }, {
+      "local": false,
+      "invokingMethod": "findUserById(java.lang.String)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "orElse(java.lang.Object)",
+      "invokedObject": "java.util.Optional",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 34,
+          "column": 16
+        },
+        "end": {
+          "line": 37,
+          "column": 29
+        }
+      }
+    }],
+    "parameterNames": ["id"],
+    "parameterTypes": ["java.lang.String"],
+    "referencedTypes": ["java.util.function.Predicate", "com.example.library.models.User", "java.util.Optional", "java.lang.String", "java.util.Collection", "java.util.stream.Stream", "com.example.library.Library", "\u003cnulltype\u003e"],
+    "textAndNames": ["id", "findUserById", "", "users", "user", "id"],
+    "appName": "example-project-2",
+    "content": "public com.example.library.models.User findUserById(java.lang.String id) {\n    return users.stream().filter(user -\u003e user.getId().equals(id)).findFirst().orElse(null);\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 33,
+        "column": 5
+      },
+      "end": {
+        "line": 38,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "registerUser",
+    "fullName": "com.example.library.Library::registerUser(com.example.library.models.User)",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "registerUser(com.example.library.models.User)",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "add(java.lang.Object)",
+      "invokedObject": "java.util.List",
+      "appName": "example-project-2",
+      "span": {
+        "start": {
+          "line": 23,
+          "column": 9
+        },
+        "end": {
+          "line": 23,
+          "column": 24
+        }
+      }
+    }],
+    "parameterNames": ["user"],
+    "parameterTypes": ["com.example.library.models.User"],
+    "referencedTypes": ["void", "com.example.library.models.User", "java.util.List", "com.example.library.Library"],
+    "textAndNames": ["user", "registerUser", "", "users", "user"],
+    "appName": "example-project-2",
+    "content": "public void registerUser(com.example.library.models.User user) {\n    users.add(user);\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 22,
+        "column": 5
+      },
+      "end": {
+        "line": 24,
+        "column": 5
+      }
+    }
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "finalize",
+    "fullName": "com.example.library.Library::finalize()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.Deprecated", "boolean", "void", "java.lang.String", "java.lang.Throwable"],
+    "textAndNames": ["finalize", ""],
+    "appName": "example-project-2",
+    "content": "@java.lang.Deprecated(forRemoval \u003d false, since \u003d \"9\")\nprotected void finalize() throws java.lang.Throwable {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "toString",
+    "fullName": "com.example.library.Library::toString()",
+    "returnType": "java.lang.String",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.String"],
+    "textAndNames": ["toString", ""],
+    "appName": "example-project-2",
+    "content": "public java.lang.String toString() {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": false,
+    "parentName": "com.example.library.Library",
+    "simpleName": "clone",
+    "fullName": "com.example.library.Library::clone()",
+    "returnType": "java.lang.Object",
+    "localInvocations": [],
+    "invocations": [],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["java.lang.CloneNotSupportedException", "java.lang.Object", "jdk.internal.HotSpotIntrinsicCandidate"],
+    "textAndNames": ["clone", ""],
+    "appName": "example-project-2",
+    "content": "@jdk.internal.HotSpotIntrinsicCandidate\nprotected native java.lang.Object clone() throws java.lang.CloneNotSupportedException {\n}",
+    "isLocal": false
+  }, {
+    "isLambda": false,
+    "isConstructor": true,
+    "parentName": "com.example.library.Library",
+    "simpleName": "Library",
+    "fullName": "com.example.library.Library::com.example.library.Library()",
+    "returnType": "void",
+    "localInvocations": [],
+    "invocations": [{
+      "local": false,
+      "invokingMethod": "com.example.library.Library()",
+      "invokingObject": "com.example.library.Library",
+      "invokedMethod": "java.lang.Object()",
+      "invokedObject": "java.lang.Object",
+      "appName": "example-project-2"
+    }],
+    "parameterNames": [],
+    "parameterTypes": [],
+    "referencedTypes": ["com.example.library.models.User", "java.lang.Object", "com.example.library.models.Book", "java.util.ArrayList", "java.util.List", "java.util.List", "com.example.library.Library"],
+    "textAndNames": ["books", "users"],
+    "appName": "example-project-2",
+    "content": "public Library() {\n    books \u003d new java.util.ArrayList\u003c\u003e();\n    users \u003d new java.util.ArrayList\u003c\u003e();\n}",
+    "isLocal": true,
+    "span": {
+      "start": {
+        "line": 13,
+        "column": 5
+      },
+      "end": {
+        "line": 16,
+        "column": 5
+      }
+    }
+  }]
+}

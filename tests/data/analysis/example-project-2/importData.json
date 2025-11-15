@@ -1,0 +1,1070 @@
+{
+  "imports": [{
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/NotificationService.java",
+    "importString": "import com.example.library.models.User;",
+    "span": {
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.services.NotificationService",
+      "span": {
+        "start": {
+          "line": 6,
+          "column": 34
+        },
+        "end": {
+          "line": 6,
+          "column": 37
+        }
+      },
+      "methodName": "sendNotification"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "User",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.NotificationService",
+      "span": {
+        "start": {
+          "line": 6,
+          "column": 34
+        },
+        "end": {
+          "line": 6,
+          "column": 37
+        }
+      },
+      "methodName": "sendNotification"
+    }, {
+      "className": "com.example.library.services.NotificationService",
+      "span": {
+        "start": {
+          "line": 7,
+          "column": 49
+        },
+        "end": {
+          "line": 7,
+          "column": 62
+        }
+      },
+      "methodName": "sendNotification"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/ExtendedNotificationService.java",
+    "importString": "import com.example.library.models.User;",
+    "span": {
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.services.ExtendedNotificationService",
+      "span": {
+        "start": {
+          "line": 6,
+          "column": 34
+        },
+        "end": {
+          "line": 6,
+          "column": 37
+        }
+      },
+      "methodName": "sendNotification"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "User",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.ExtendedNotificationService",
+      "span": {
+        "start": {
+          "line": 6,
+          "column": 34
+        },
+        "end": {
+          "line": 6,
+          "column": 37
+        }
+      },
+      "methodName": "sendNotification"
+    }, {
+      "className": "com.example.library.services.ExtendedNotificationService",
+      "span": {
+        "start": {
+          "line": 7,
+          "column": 49
+        },
+        "end": {
+          "line": 7,
+          "column": 62
+        }
+      },
+      "methodName": "sendNotification"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/Library.java",
+    "importString": "import java.util.List;",
+    "span": {
+      "start": {
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "line": 7,
+        "column": 22
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": false,
+    "usages": [{
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 10,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": 22
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 11,
+          "column": 13
+        },
+        "end": {
+          "line": 11,
+          "column": 22
+        }
+      }
+    }],
+    "importedPackage": "java.util",
+    "importedClass": "List",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 10,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": 22
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 11,
+          "column": 13
+        },
+        "end": {
+          "line": 11,
+          "column": 22
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 14,
+          "column": 9
+        },
+        "end": {
+          "line": 14,
+          "column": 34
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 15,
+          "column": 9
+        },
+        "end": {
+          "line": 15,
+          "column": 34
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 19,
+          "column": 9
+        },
+        "end": {
+          "line": 19,
+          "column": 24
+        }
+      },
+      "methodName": "addBook"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 23,
+          "column": 9
+        },
+        "end": {
+          "line": 23,
+          "column": 24
+        }
+      },
+      "methodName": "registerUser"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 27,
+          "column": 16
+        },
+        "end": {
+          "line": 27,
+          "column": 20
+        }
+      },
+      "methodName": "findBookById"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 34,
+          "column": 16
+        },
+        "end": {
+          "line": 34,
+          "column": 20
+        }
+      },
+      "methodName": "findUserById"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/Library.java",
+    "importString": "import com.example.library.models.Book;",
+    "span": {
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 18,
+          "column": 25
+        },
+        "end": {
+          "line": 18,
+          "column": 28
+        }
+      },
+      "methodName": "addBook"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 26,
+          "column": 12
+        },
+        "end": {
+          "line": 26,
+          "column": 15
+        }
+      },
+      "methodName": "findBookById"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "Book",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 10,
+          "column": 18
+        },
+        "end": {
+          "line": 10,
+          "column": 21
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 14,
+          "column": 9
+        },
+        "end": {
+          "line": 14,
+          "column": 34
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 18,
+          "column": 25
+        },
+        "end": {
+          "line": 18,
+          "column": 28
+        }
+      },
+      "methodName": "addBook"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 19,
+          "column": 9
+        },
+        "end": {
+          "line": 19,
+          "column": 13
+        }
+      },
+      "methodName": "addBook"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 19,
+          "column": 19
+        },
+        "end": {
+          "line": 19,
+          "column": 22
+        }
+      },
+      "methodName": "addBook"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 26,
+          "column": 12
+        },
+        "end": {
+          "line": 26,
+          "column": 15
+        }
+      },
+      "methodName": "findBookById"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 27,
+          "column": 16
+        },
+        "end": {
+          "line": 30,
+          "column": 29
+        }
+      },
+      "methodName": "findBookById"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/Library.java",
+    "importString": "import com.example.library.models.User;",
+    "span": {
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 4,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 22,
+          "column": 30
+        },
+        "end": {
+          "line": 22,
+          "column": 33
+        }
+      },
+      "methodName": "registerUser"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 33,
+          "column": 12
+        },
+        "end": {
+          "line": 33,
+          "column": 15
+        }
+      },
+      "methodName": "findUserById"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "User",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 11,
+          "column": 18
+        },
+        "end": {
+          "line": 11,
+          "column": 21
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 15,
+          "column": 9
+        },
+        "end": {
+          "line": 15,
+          "column": 34
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 22,
+          "column": 30
+        },
+        "end": {
+          "line": 22,
+          "column": 33
+        }
+      },
+      "methodName": "registerUser"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 23,
+          "column": 9
+        },
+        "end": {
+          "line": 23,
+          "column": 13
+        }
+      },
+      "methodName": "registerUser"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 23,
+          "column": 19
+        },
+        "end": {
+          "line": 23,
+          "column": 22
+        }
+      },
+      "methodName": "registerUser"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 33,
+          "column": 12
+        },
+        "end": {
+          "line": 33,
+          "column": 15
+        }
+      },
+      "methodName": "findUserById"
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 34,
+          "column": 16
+        },
+        "end": {
+          "line": 37,
+          "column": 29
+        }
+      },
+      "methodName": "findUserById"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/Library.java",
+    "importString": "import java.util.ArrayList;",
+    "span": {
+      "start": {
+        "line": 6,
+        "column": 1
+      },
+      "end": {
+        "line": 6,
+        "column": 27
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": false,
+    "usages": [],
+    "importedPackage": "java.util",
+    "importedClass": "ArrayList",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 14,
+          "column": 17
+        },
+        "end": {
+          "line": 14,
+          "column": 33
+        }
+      }
+    }, {
+      "className": "com.example.library.Library",
+      "span": {
+        "start": {
+          "line": 15,
+          "column": 17
+        },
+        "end": {
+          "line": 15,
+          "column": 33
+        }
+      }
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/BorrowService.java",
+    "importString": "import com.example.library.Library;",
+    "span": {
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 35
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 8,
+          "column": 13
+        },
+        "end": {
+          "line": 8,
+          "column": 19
+        }
+      }
+    }],
+    "importedPackage": "com.example.library",
+    "importedClass": "Library",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 8,
+          "column": 13
+        },
+        "end": {
+          "line": 8,
+          "column": 19
+        }
+      }
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 11,
+          "column": 26
+        },
+        "end": {
+          "line": 11,
+          "column": 32
+        }
+      }
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 12,
+          "column": 9
+        },
+        "end": {
+          "line": 12,
+          "column": 31
+        }
+      }
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 17,
+          "column": 21
+        },
+        "end": {
+          "line": 17,
+          "column": 48
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 18,
+          "column": 21
+        },
+        "end": {
+          "line": 18,
+          "column": 48
+        }
+      },
+      "methodName": "borrowBook"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/BorrowService.java",
+    "importString": "import com.example.library.models.User;",
+    "span": {
+      "start": {
+        "line": 5,
+        "column": 1
+      },
+      "end": {
+        "line": 5,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 17,
+          "column": 9
+        },
+        "end": {
+          "line": 17,
+          "column": 12
+        }
+      },
+      "methodName": "borrowBook"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "User",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 17,
+          "column": 9
+        },
+        "end": {
+          "line": 17,
+          "column": 12
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 17,
+          "column": 21
+        },
+        "end": {
+          "line": 17,
+          "column": 48
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 20,
+          "column": 13
+        },
+        "end": {
+          "line": 20,
+          "column": 16
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 22,
+          "column": 13
+        },
+        "end": {
+          "line": 22,
+          "column": 105
+        }
+      },
+      "methodName": "borrowBook"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/BorrowService.java",
+    "importString": "import com.example.library.models.Book;",
+    "span": {
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 4,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 18,
+          "column": 9
+        },
+        "end": {
+          "line": 18,
+          "column": 12
+        }
+      },
+      "methodName": "borrowBook"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "Book",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 18,
+          "column": 9
+        },
+        "end": {
+          "line": 18,
+          "column": 12
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 18,
+          "column": 21
+        },
+        "end": {
+          "line": 18,
+          "column": 48
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 20,
+          "column": 29
+        },
+        "end": {
+          "line": 20,
+          "column": 32
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 20,
+          "column": 46
+        },
+        "end": {
+          "line": 20,
+          "column": 62
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 21,
+          "column": 13
+        },
+        "end": {
+          "line": 21,
+          "column": 35
+        }
+      },
+      "methodName": "borrowBook"
+    }, {
+      "className": "com.example.library.services.BorrowService",
+      "span": {
+        "start": {
+          "line": 22,
+          "column": 89
+        },
+        "end": {
+          "line": 22,
+          "column": 103
+        }
+      },
+      "methodName": "borrowBook"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/CustomBorrowService.java",
+    "importString": "import com.example.library.models.User;",
+    "span": {
+      "start": {
+        "line": 5,
+        "column": 1
+      },
+      "end": {
+        "line": 5,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 13,
+          "column": 9
+        },
+        "end": {
+          "line": 13,
+          "column": 12
+        }
+      },
+      "methodName": "returnBook"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "User",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 13,
+          "column": 9
+        },
+        "end": {
+          "line": 13,
+          "column": 12
+        }
+      },
+      "methodName": "returnBook"
+    }, {
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 13,
+          "column": 21
+        },
+        "end": {
+          "line": 13,
+          "column": 48
+        }
+      },
+      "methodName": "returnBook"
+    }, {
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 16,
+          "column": 9
+        },
+        "end": {
+          "line": 16,
+          "column": 101
+        }
+      },
+      "methodName": "returnBook"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/CustomBorrowService.java",
+    "importString": "import com.example.library.models.Book;",
+    "span": {
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 4,
+        "column": 39
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [{
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 14,
+          "column": 9
+        },
+        "end": {
+          "line": 14,
+          "column": 12
+        }
+      },
+      "methodName": "returnBook"
+    }],
+    "importedPackage": "com.example.library.models",
+    "importedClass": "Book",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 14,
+          "column": 9
+        },
+        "end": {
+          "line": 14,
+          "column": 12
+        }
+      },
+      "methodName": "returnBook"
+    }, {
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 14,
+          "column": 21
+        },
+        "end": {
+          "line": 14,
+          "column": 48
+        }
+      },
+      "methodName": "returnBook"
+    }, {
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 15,
+          "column": 9
+        },
+        "end": {
+          "line": 15,
+          "column": 32
+        }
+      },
+      "methodName": "returnBook"
+    }, {
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 16,
+          "column": 85
+        },
+        "end": {
+          "line": 16,
+          "column": 99
+        }
+      },
+      "methodName": "returnBook"
+    }]
+  }, {
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/CustomBorrowService.java",
+    "importString": "import com.example.library.Library;",
+    "span": {
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 3,
+        "column": 35
+      }
+    },
+    "importKind": "TYPE",
+    "isLocal": true,
+    "usages": [],
+    "importedPackage": "com.example.library",
+    "importedClass": "Library",
+    "importedFieldOrMethod": "",
+    "allReferences": [{
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 8,
+          "column": 32
+        },
+        "end": {
+          "line": 8,
+          "column": 38
+        }
+      }
+    }, {
+      "className": "com.example.library.services.CustomBorrowService",
+      "span": {
+        "start": {
+          "line": 9,
+          "column": 9
+        },
+        "end": {
+          "line": 9,
+          "column": 44
+        }
+      }
+    }]
+  }]
+}

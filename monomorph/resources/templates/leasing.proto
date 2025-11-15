@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package {{ package_name }}.shared.leasing;
+
+option java_multiple_files = true;
+option java_package = "{{ package_name }}.shared.leasing";
+
+import "shared.proto";
+
+service LeasingService {
+    rpc acquireLease(LeaseRequest) returns (LeaseResponse);
+    rpc renewLease(LeaseRequest) returns (LeaseResponse);
+    rpc releaseLease(LeaseRequest) returns (LeaseResponse);
+}
+
+message LeaseRequest {
+    {{ package_name }}.shared.RefactoredObjectID instanceID = 1;
+    string clientID = 2;
+}
+
+message LeaseResponse {
+    bool success = 1;
+}

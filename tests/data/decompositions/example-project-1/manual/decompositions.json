@@ -1,0 +1,21 @@
+[
+  {
+    "application": "example-project-1",
+    "granularity": "class",
+    "decomposer_details": {
+      "decomposer_class": "manual",
+      "version": null,
+      "hyperparameters": null
+    },
+    "encoder_details": null,
+    "names": [
+      "library-system-legacy.NO_NAME_FOUND_0.com.example.library.Library",
+      "library-system-legacy.NO_NAME_FOUND_0.com.example.library.models.Book",
+      "library-system-legacy.NO_NAME_FOUND_0.com.example.library.models.User",
+      "library-system-legacy.NO_NAME_FOUND_0.com.example.library.services.ReturnService",
+      "library-system-legacy.NO_NAME_FOUND_0.com.example.library.services.NotificationService"
+    ],
+    "time": "2024-12-03 10:43:00",
+    "clusters": [0, 0, 2, 1, 1]
+  }
+]

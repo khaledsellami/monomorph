@@ -1,0 +1,264 @@
+{
+  "classes": [{
+    "isInterface": false,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "Book",
+    "fullName": "com.example.library.models.Book",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/models/Book.java",
+    "referencedTypes": ["boolean", "void", "com.example.library.models.Book", "java.lang.Object", "java.lang.String"],
+    "fieldTypes": ["java.lang.String", "java.lang.String", "boolean"],
+    "parameterTypes": ["long", "long", "int", "java.lang.Object", "boolean", "java.lang.String", "java.lang.String"],
+    "returnTypes": ["java.lang.Class", "void", "void", "void", "void", "boolean", "java.lang.String", "void", "void", "void", "int", "java.lang.String", "void", "java.lang.String", "java.lang.Object", "boolean"],
+    "nestedTypes": [],
+    "inheritedTypes": [],
+    "fieldCalls": [],
+    "constructors": ["com.example.library.models.Book(java.lang.String,java.lang.String)"],
+    "textAndNames": ["Book", "id", "title", "isBorrowed", "getClass", "", "arg0", "wait", "", "arg0", "arg1", "wait", "", "wait", "", "notifyAll", "", "arg0", "equals", "", "getId", "", "id", "registerNatives", "", "borrowed", "setBorrowed", "", "isBorrowed", "borrowed", "notify", "", "hashCode", "", "getTitle", "", "title", "finalize", "", "toString", "", "clone", "", "isBorrowed", "", "isBorrowed", "", "id", "id", "title", "title", "isBorrowed", ""],
+    "methods": ["getClass()", "wait(long)", "wait(long,int)", "wait()", "notifyAll()", "equals(java.lang.Object)", "getId()", "registerNatives()", "setBorrowed(boolean)", "notify()", "hashCode()", "getTitle()", "finalize()", "toString()", "clone()", "isBorrowed()"],
+    "appName": "example-project-2",
+    "content": "public class Book {\n    private java.lang.String id;\n\n    private java.lang.String title;\n\n    private boolean isBorrowed;\n\n    public Book(java.lang.String id, java.lang.String title) {\n        this.id \u003d id;\n        this.title \u003d title;\n        this.isBorrowed \u003d false;\n    }\n\n    public java.lang.String getId() {\n        return id;\n    }\n\n    public java.lang.String getTitle() {\n        return title;\n    }\n\n    public boolean isBorrowed() {\n        return isBorrowed;\n    }\n\n    public void setBorrowed(boolean borrowed) {\n        isBorrowed \u003d borrowed;\n    }\n}",
+    "span": {
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 29,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": false,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "User",
+    "fullName": "com.example.library.models.User",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/models/User.java",
+    "referencedTypes": ["com.example.library.models.User", "java.lang.Object", "java.lang.String"],
+    "fieldTypes": ["java.lang.String", "java.lang.String"],
+    "parameterTypes": ["long", "long", "int", "java.lang.Object", "java.lang.String", "java.lang.String"],
+    "returnTypes": ["java.lang.String", "java.lang.Class", "void", "void", "void", "void", "boolean", "java.lang.String", "void", "void", "int", "void", "java.lang.String", "java.lang.Object"],
+    "nestedTypes": [],
+    "inheritedTypes": [],
+    "fieldCalls": [],
+    "constructors": ["com.example.library.models.User(java.lang.String,java.lang.String)"],
+    "textAndNames": ["User", "id", "name", "getName", "", "name", "getClass", "", "arg0", "wait", "", "arg0", "arg1", "wait", "", "wait", "", "notifyAll", "", "arg0", "equals", "", "getId", "", "id", "registerNatives", "", "notify", "", "hashCode", "", "finalize", "", "toString", "", "clone", "", "", "id", "id", "name", "name", ""],
+    "methods": ["getName()", "getClass()", "wait(long)", "wait(long,int)", "wait()", "notifyAll()", "equals(java.lang.Object)", "getId()", "registerNatives()", "notify()", "hashCode()", "finalize()", "toString()", "clone()"],
+    "appName": "example-project-2",
+    "content": "public class User {\n    private java.lang.String id;\n\n    private java.lang.String name;\n\n    public User(java.lang.String id, java.lang.String name) {\n        this.id \u003d id;\n        this.name \u003d name;\n    }\n\n    public java.lang.String getId() {\n        return id;\n    }\n\n    public java.lang.String getName() {\n        return name;\n    }\n}",
+    "span": {
+      "start": {
+        "line": 3,
+        "column": 1
+      },
+      "end": {
+        "line": 19,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": true,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "BasicService",
+    "fullName": "com.example.library.services.BasicService",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/BasicService.java",
+    "referencedTypes": ["java.lang.String", "com.example.library.services.BasicService"],
+    "fieldTypes": [],
+    "parameterTypes": [],
+    "returnTypes": ["java.lang.String"],
+    "nestedTypes": [],
+    "inheritedTypes": [],
+    "fieldCalls": [],
+    "constructors": [],
+    "textAndNames": ["BasicService", "whatIsMyName", "", ""],
+    "methods": ["whatIsMyName()"],
+    "appName": "example-project-2",
+    "content": "public interface BasicService {\n    public java.lang.String whatIsMyName();\n}",
+    "span": {
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 7,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": false,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "BorrowService",
+    "fullName": "com.example.library.services.BorrowService",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/BorrowService.java",
+    "referencedTypes": ["boolean", "com.example.library.models.User", "java.lang.Object", "com.example.library.models.Book", "java.lang.String", "com.example.library.services.NotificationService", "com.example.library.Library", "\u003cnulltype\u003e", "com.example.library.services.BorrowService"],
+    "fieldTypes": ["com.example.library.Library", "com.example.library.services.NotificationService"],
+    "parameterTypes": ["long", "long", "int", "java.lang.Object", "java.lang.String", "java.lang.String", "com.example.library.Library", "com.example.library.services.NotificationService"],
+    "returnTypes": ["java.lang.Class", "void", "void", "void", "void", "boolean", "void", "void", "int", "boolean", "void", "java.lang.String", "java.lang.Object"],
+    "nestedTypes": [],
+    "inheritedTypes": [],
+    "fieldCalls": [],
+    "constructors": ["com.example.library.services.BorrowService(com.example.library.Library,com.example.library.services.NotificationService)"],
+    "textAndNames": ["BorrowService", "library", "notificationService", "getClass", "", "arg0", "wait", "", "arg0", "arg1", "wait", "", "wait", "", "notifyAll", "", "arg0", "equals", "", "registerNatives", "", "notify", "", "hashCode", "", "userId", "bookId", "borrowBook", "", "library", "userId", "library", "bookId", "user", "book", "book", "book", "notificationService", "user", "book", "finalize", "", "toString", "", "clone", "", "", "library", "library", "notificationService", "notificationService", ""],
+    "methods": ["getClass()", "wait(long)", "wait(long,int)", "wait()", "notifyAll()", "equals(java.lang.Object)", "registerNatives()", "notify()", "hashCode()", "borrowBook(java.lang.String,java.lang.String)", "finalize()", "toString()", "clone()"],
+    "appName": "example-project-2",
+    "content": "public class BorrowService {\n    private com.example.library.Library library;\n\n    private com.example.library.services.NotificationService notificationService;\n\n    public BorrowService(com.example.library.Library library, com.example.library.services.NotificationService notificationService) {\n        this.library \u003d library;\n        this.notificationService \u003d notificationService;\n    }\n\n    public boolean borrowBook(java.lang.String userId, java.lang.String bookId) {\n        com.example.library.models.User user \u003d library.findUserById(userId);\n        com.example.library.models.Book book \u003d library.findBookById(bookId);\n        if (((user !\u003d null) \u0026\u0026 (book !\u003d null)) \u0026\u0026 (!book.isBorrowed())) {\n            book.setBorrowed(true);\n            notificationService.sendNotification(user, \"You have borrowed the book: \" + book.getTitle());\n            return true;\n        }\n        return false;\n    }\n}",
+    "span": {
+      "start": {
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "line": 27,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": false,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "CustomBorrowService",
+    "fullName": "com.example.library.services.CustomBorrowService",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/CustomBorrowService.java",
+    "referencedTypes": ["boolean", "com.example.library.models.User", "com.example.library.services.library", "com.example.library.models.Book", "com.example.library.services.notificationService", "java.lang.String", "com.example.library.services.CustomBorrowService", "com.example.library.services.NotificationService", "com.example.library.Library", "com.example.library.services.BorrowService"],
+    "fieldTypes": ["com.example.library.Library", "com.example.library.services.NotificationService"],
+    "parameterTypes": ["long", "long", "int", "java.lang.Object", "java.lang.String", "java.lang.String", "java.lang.String", "java.lang.String", "com.example.library.Library", "com.example.library.services.NotificationService"],
+    "returnTypes": ["java.lang.Class", "void", "void", "void", "void", "boolean", "void", "void", "boolean", "int", "boolean", "void", "java.lang.String", "java.lang.Object"],
+    "nestedTypes": [],
+    "inheritedTypes": ["com.example.library.services.BorrowService"],
+    "fieldCalls": [],
+    "constructors": ["com.example.library.services.CustomBorrowService(com.example.library.Library,com.example.library.services.NotificationService)"],
+    "textAndNames": ["CustomBorrowService", "library", "notificationService", "getClass", "", "arg0", "wait", "", "arg0", "arg1", "wait", "", "wait", "", "notifyAll", "", "arg0", "equals", "", "registerNatives", "", "notify", "", "userId", "bookId", "returnBook", "", "library", "userId", "library", "bookId", "book", "notificationService", "user", "book", "hashCode", "", "userId", "bookId", "borrowBook", "", "library", "userId", "library", "bookId", "user", "book", "book", "book", "notificationService", "user", "book", "finalize", "", "toString", "", "clone", "", "", "library", "notificationService", ""],
+    "methods": ["getClass()", "wait(long)", "wait(long,int)", "wait()", "notifyAll()", "equals(java.lang.Object)", "registerNatives()", "notify()", "returnBook(java.lang.String,java.lang.String)", "hashCode()", "borrowBook(java.lang.String,java.lang.String)", "finalize()", "toString()", "clone()"],
+    "appName": "example-project-2",
+    "content": "public class CustomBorrowService extends com.example.library.services.BorrowService {\n    public CustomBorrowService(com.example.library.Library library, com.example.library.services.NotificationService notificationService) {\n        super(library, notificationService);\n    }\n\n    public boolean returnBook(java.lang.String userId, java.lang.String bookId) {\n        com.example.library.models.User user \u003d library.findUserById(userId);\n        com.example.library.models.Book book \u003d library.findBookById(bookId);\n        book.setBorrowed(false);\n        notificationService.sendNotification(user, \"You have returned the book: \" + book.getTitle());\n        return true;\n    }\n}",
+    "span": {
+      "start": {
+        "line": 7,
+        "column": 1
+      },
+      "end": {
+        "line": 19,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": true,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "ExtendedBasicService",
+    "fullName": "com.example.library.services.ExtendedBasicService",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/ExtendedBasicService.java",
+    "referencedTypes": ["void", "com.example.library.services.ExtendedBasicService", "java.lang.String", "com.example.library.services.BasicService"],
+    "fieldTypes": [],
+    "parameterTypes": ["java.lang.String"],
+    "returnTypes": ["void", "java.lang.String"],
+    "nestedTypes": [],
+    "inheritedTypes": ["com.example.library.services.BasicService"],
+    "fieldCalls": [],
+    "constructors": [],
+    "textAndNames": ["ExtendedBasicService", "newName", "changeMyName", "", "whatIsMyName", "", ""],
+    "methods": ["changeMyName(java.lang.String)", "whatIsMyName()"],
+    "appName": "example-project-2",
+    "content": "public interface ExtendedBasicService extends com.example.library.services.BasicService {\n    public java.lang.String whatIsMyName();\n\n    public void changeMyName(java.lang.String newName);\n}",
+    "span": {
+      "start": {
+        "line": 4,
+        "column": 1
+      },
+      "end": {
+        "line": 9,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": false,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "ExtendedNotificationService",
+    "fullName": "com.example.library.services.ExtendedNotificationService",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/ExtendedNotificationService.java",
+    "referencedTypes": ["java.lang.System", "void", "java.io.PrintStream", "com.example.library.services.ExtendedBasicService", "com.example.library.services.ExtendedNotificationService", "com.example.library.models.User", "java.lang.Object", "java.lang.String"],
+    "fieldTypes": [],
+    "parameterTypes": ["long", "long", "int", "java.lang.Object", "com.example.library.models.User", "java.lang.String", "java.lang.String"],
+    "returnTypes": ["java.lang.Class", "void", "void", "void", "void", "boolean", "void", "void", "void", "java.lang.String", "void", "int", "void", "java.lang.String", "java.lang.Object"],
+    "nestedTypes": [],
+    "inheritedTypes": ["com.example.library.services.ExtendedBasicService"],
+    "fieldCalls": [],
+    "constructors": ["com.example.library.services.ExtendedNotificationService()"],
+    "textAndNames": ["ExtendedNotificationService", "getClass", "", "arg0", "wait", "", "arg0", "arg1", "wait", "", "wait", "", "notifyAll", "", "arg0", "equals", "", "registerNatives", "", "user", "message", "sendNotification", "", "out", "user", "message", "notify", "", "whatIsMyName", "", "newName", "changeMyName", "", "hashCode", "", "finalize", "", "toString", "", "clone", "", "", ""],
+    "methods": ["getClass()", "wait(long)", "wait(long,int)", "wait()", "notifyAll()", "equals(java.lang.Object)", "registerNatives()", "sendNotification(com.example.library.models.User,java.lang.String)", "notify()", "whatIsMyName()", "changeMyName(java.lang.String)", "hashCode()", "finalize()", "toString()", "clone()"],
+    "appName": "example-project-2",
+    "content": "public class ExtendedNotificationService implements com.example.library.services.ExtendedBasicService {\n    public void sendNotification(com.example.library.models.User user, java.lang.String message) {\n        java.lang.System.out.println(((\"Notification to \" + user.getName()) + \": \") + message);\n    }\n\n    public java.lang.String whatIsMyName() {\n        return \"NotificationService\";\n    }\n\n    public void changeMyName(java.lang.String newName) {\n        return;\n    }\n}",
+    "span": {
+      "start": {
+        "line": 5,
+        "column": 1
+      },
+      "end": {
+        "line": 17,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": false,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "NotificationService",
+    "fullName": "com.example.library.services.NotificationService",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/services/NotificationService.java",
+    "referencedTypes": ["java.lang.System", "void", "java.io.PrintStream", "com.example.library.models.User", "java.lang.Object", "java.lang.String", "com.example.library.services.NotificationService", "com.example.library.services.BasicService"],
+    "fieldTypes": [],
+    "parameterTypes": ["long", "long", "int", "java.lang.Object", "com.example.library.models.User", "java.lang.String"],
+    "returnTypes": ["java.lang.Class", "void", "void", "void", "void", "boolean", "void", "void", "void", "java.lang.String", "int", "void", "java.lang.String", "java.lang.Object"],
+    "nestedTypes": [],
+    "inheritedTypes": ["com.example.library.services.BasicService"],
+    "fieldCalls": [],
+    "constructors": ["com.example.library.services.NotificationService()"],
+    "textAndNames": ["NotificationService", "getClass", "", "arg0", "wait", "", "arg0", "arg1", "wait", "", "wait", "", "notifyAll", "", "arg0", "equals", "", "registerNatives", "", "user", "message", "sendNotification", "", "out", "user", "message", "notify", "", "whatIsMyName", "", "hashCode", "", "finalize", "", "toString", "", "clone", "", "", ""],
+    "methods": ["getClass()", "wait(long)", "wait(long,int)", "wait()", "notifyAll()", "equals(java.lang.Object)", "registerNatives()", "sendNotification(com.example.library.models.User,java.lang.String)", "notify()", "whatIsMyName()", "hashCode()", "finalize()", "toString()", "clone()"],
+    "appName": "example-project-2",
+    "content": "public class NotificationService implements com.example.library.services.BasicService {\n    public void sendNotification(com.example.library.models.User user, java.lang.String message) {\n        java.lang.System.out.println(((\"Notification to \" + user.getName()) + \": \") + message);\n    }\n\n    public java.lang.String whatIsMyName() {\n        return \"NotificationService\";\n    }\n}",
+    "span": {
+      "start": {
+        "line": 5,
+        "column": 1
+      },
+      "end": {
+        "line": 13,
+        "column": 1
+      }
+    }
+  }, {
+    "isInterface": false,
+    "isImplicit": false,
+    "isAnonymous": false,
+    "simpleName": "Library",
+    "fullName": "com.example.library.Library",
+    "filePath": "/Users/khalsel/Documents/projects/MonoRefact/MonoRefact/data/repositories/example-project-2/src/main/java/com/example/library/Library.java",
+    "referencedTypes": ["java.util.function.Predicate", "java.util.function.Predicate", "void", "com.example.library.models.User", "java.lang.Object", "java.util.Optional", "java.util.ArrayList", "java.lang.String", "\u003cnulltype\u003e", "com.example.library.models.Book", "java.util.Collection", "java.util.List", "java.util.List", "java.util.List", "java.util.stream.Stream", "com.example.library.Library"],
+    "fieldTypes": ["java.util.List", "java.util.List"],
+    "parameterTypes": ["long", "long", "int", "java.lang.Object", "com.example.library.models.Book", "java.lang.String", "java.lang.String", "com.example.library.models.User"],
+    "returnTypes": ["java.lang.Class", "void", "void", "void", "void", "boolean", "void", "void", "void", "int", "com.example.library.models.Book", "com.example.library.models.User", "void", "void", "java.lang.String", "java.lang.Object"],
+    "nestedTypes": [],
+    "inheritedTypes": [],
+    "fieldCalls": [],
+    "constructors": ["com.example.library.Library()"],
+    "textAndNames": ["Library", "books", "users", "getClass", "", "arg0", "wait", "", "arg0", "arg1", "wait", "", "wait", "", "notifyAll", "", "arg0", "equals", "", "registerNatives", "", "book", "addBook", "", "books", "book", "notify", "", "hashCode", "", "id", "findBookById", "", "books", "book", "id", "id", "findUserById", "", "users", "user", "id", "user", "registerUser", "", "users", "user", "finalize", "", "toString", "", "clone", "", "", "books", "users", ""],
+    "methods": ["getClass()", "wait(long)", "wait(long,int)", "wait()", "notifyAll()", "equals(java.lang.Object)", "registerNatives()", "addBook(com.example.library.models.Book)", "notify()", "hashCode()", "findBookById(java.lang.String)", "findUserById(java.lang.String)", "registerUser(com.example.library.models.User)", "finalize()", "toString()", "clone()"],
+    "appName": "example-project-2",
+    "content": "public class Library {\n    private java.util.List\u003ccom.example.library.models.Book\u003e books;\n\n    private java.util.List\u003ccom.example.library.models.User\u003e users;\n\n    public Library() {\n        books \u003d new java.util.ArrayList\u003c\u003e();\n        users \u003d new java.util.ArrayList\u003c\u003e();\n    }\n\n    public void addBook(com.example.library.models.Book book) {\n        books.add(book);\n    }\n\n    public void registerUser(com.example.library.models.User user) {\n        users.add(user);\n    }\n\n    public com.example.library.models.Book findBookById(java.lang.String id) {\n        return books.stream().filter(book -\u003e book.getId().equals(id)).findFirst().orElse(null);\n    }\n\n    public com.example.library.models.User findUserById(java.lang.String id) {\n        return users.stream().filter(user -\u003e user.getId().equals(id)).findFirst().orElse(null);\n    }\n}",
+    "span": {
+      "start": {
+        "line": 9,
+        "column": 1
+      },
+      "end": {
+        "line": 39,
+        "column": 1
+      }
+    }
+  }]
+}
