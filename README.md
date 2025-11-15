@@ -311,7 +311,7 @@ If this work was useful for your research, please consider citing it:
 <!-- LICENSE -->
 # License
 
-TODO
+Distributed under the GNU GPL-3.0 License. See [LICENSE](LICENSE) for more information.
 
 <!-- REFERENCES -->
 # References
