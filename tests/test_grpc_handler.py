@@ -5,12 +5,12 @@ import tempfile
 import logging
 import re
 
-from monomorph.execution.dependency.buildfile import GRPC_VERSION, PROTOBUF_VERSION, ANNOTATION_API_VERSION, \
+from monomorph.assembly.dependency.buildfile import GRPC_VERSION, PROTOBUF_VERSION, ANNOTATION_API_VERSION, \
     CAFFEINE_VERSION, MAPSTRUCT_VERSION
-from monomorph.execution.dependency.gradle import (GRADLE_PROTOBUF_PLUGIN_VERSION)
-from monomorph.execution.dependency.maven import (OS_MAVEN_PLUGIN_VERSION, PROTOBUF_MAVEN_PLUGIN_VERSION,
-                                                  MAVEN_COMPILER_PLUGIN_VERSION)
-from monomorph.execution.dependency.dependency import GrpcDependencyHandler
+from monomorph.assembly.dependency.gradle import (GRADLE_PROTOBUF_PLUGIN_VERSION)
+from monomorph.assembly.dependency.maven import (OS_MAVEN_PLUGIN_VERSION, PROTOBUF_MAVEN_PLUGIN_VERSION,
+                                                 MAVEN_COMPILER_PLUGIN_VERSION)
+from monomorph.assembly.dependency.dependency import GrpcDependencyHandler
 
 
 class TestGrpcDependencyHandler(unittest.TestCase):

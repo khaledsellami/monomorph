@@ -2,9 +2,9 @@ import unittest
 import os
 import json
 
-from monomorph.modeling.json import JsonModel
+from monomorph.analysis.json import JsonModel
 from monomorph.models import UpdatedDecomposition
-from monomorph.preprocessing.inheritance import InheritanceHandler
+from monomorph.planning.inheritance import InheritanceHandler
 
 
 class TestInheritanceHandler(unittest.TestCase):

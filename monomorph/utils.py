@@ -1,5 +1,4 @@
 import contextlib
-import io
 import sys
 import os
 import logging
@@ -7,7 +6,7 @@ import logging
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage
 from langgraph.graph import MessagesState
 
-from monomorph.llm.langgraph.decision.printer import ConsolePrinter
+from .decision.printer import ConsolePrinter
 
 
 @contextlib.contextmanager

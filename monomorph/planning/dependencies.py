@@ -5,7 +5,7 @@ from typing import Optional
 import numpy as np
 import pandas as pd
 
-from ..modeling.model import AppModel
+from ..analysis.model import AppModel
 from ..models import UpdatedDecomposition, UpdatedPartition
 
 

@@ -12,7 +12,7 @@ from langchain_core.globals import set_llm_cache
 import colorlog
 
 from monomorph import __version__, __analysis_version__, __importparser_version__
-from monomorph.execution.entrypoint import EntryPointGenerator
+from monomorph.assembly.entrypoint import EntryPointGenerator
 from monomorph.llm.langgraph.checkpoints import CheckpointStorage
 from monomorph.models import Decomposition
 from monomorph.monomorph import MonoMorph

@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai.chat_models.base import BaseChatOpenAI
 
 from .nodes import CorrectionState
-from ...llm.langgraph.decision.printer import ConsolePrinter
+from ...decision.printer import ConsolePrinter
 
 
 logger = ConsolePrinter.get_printer("monomorph")

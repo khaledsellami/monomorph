@@ -1,12 +1,7 @@
-import os
 import unittest
-import tempfile
-import shutil
-from pathlib import Path
-from unittest.mock import patch
 
-from monomorph.execution.entrypoint import EntryPointGenerator
-from monomorph.execution.helpers import HelperManager
+from monomorph.assembly.entrypoint import EntryPointGenerator
+from monomorph.helpers import HelperManager
 
 
 def normalize(code: str) -> str:

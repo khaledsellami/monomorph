@@ -4,7 +4,7 @@ import json
 
 import pandas as pd
 
-from monomorph.modeling.json import JsonModel
+from monomorph.analysis.json import JsonModel
 from monomorph.models import UpdatedDecomposition
 from monomorph.planning.dependencies import DependencyDetector
 

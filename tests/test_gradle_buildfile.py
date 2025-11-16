@@ -4,8 +4,8 @@ import shutil
 import tempfile
 import logging
 
-from monomorph.execution.dependency.buildfile import GRPC_VERSION, PROTOBUF_VERSION, ANNOTATION_API_VERSION
-from monomorph.execution.dependency.gradle import (GradleBuildFile, GRADLE_PROTOBUF_PLUGIN_VERSION)
+from monomorph.assembly.dependency.buildfile import GRPC_VERSION, PROTOBUF_VERSION
+from monomorph.assembly.dependency.gradle import (GradleBuildFile, GRADLE_PROTOBUF_PLUGIN_VERSION)
 
 
 class TestGradleBuildFileRegex(unittest.TestCase):

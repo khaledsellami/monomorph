@@ -13,7 +13,7 @@ from docker.models.containers import Container
 
 from .const import (DEFAULT_DOCKER_WORKDIR, CONTAINER_TEMPLATE, DEFAULT_DOCKER_IMAGES, DEFAULT_ENTYPOINT_SCRIPT,
                     CONTAINER_TEMPLATE_RESUME)
-from ..execution.microservice import MicroserviceDirectory
+from ..microservice import MicroserviceDirectory
 
 
 class MicroserviceDocker:

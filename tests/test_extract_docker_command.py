@@ -1,6 +1,6 @@
 import unittest
 
-from monomorph.planning.entrypoint.java_argparser import extract_docker_command
+from monomorph.assembly.entrypoint.java_argparser import extract_docker_command
 
 
 class TestDockerCommandFormatter(unittest.TestCase):

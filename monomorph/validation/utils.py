@@ -8,8 +8,8 @@ from typing import Optional
 from .raaid import _is_binary_fallback
 
 from .const import DEFAULT_DOCKER_WORKDIR
-from ..execution.helpers import HelperManager
-from ..execution.microservice import MicroserviceDirectory
+from ..helpers import HelperManager
+from ..microservice import MicroserviceDirectory
 
 
 logger = logging.getLogger("monomorph")

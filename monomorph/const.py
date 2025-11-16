@@ -3,7 +3,10 @@ from typing import Optional
 from dataclasses import dataclass
 import logging
 
-from .llm.langgraph.decision.models import RefactoringDecision
+from .decision.models import RefactoringDecision
+
+
+PROTO_PATH = "src/main/proto"
 
 
 class ApproachType(Enum):

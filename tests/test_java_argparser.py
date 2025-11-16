@@ -1,7 +1,7 @@
 import unittest
 
 
-from monomorph.planning.entrypoint.java_argparser import find_java_main_class
+from monomorph.assembly.entrypoint.java_argparser import find_java_main_class
 
 
 class TestFindJavaMainClass(unittest.TestCase):

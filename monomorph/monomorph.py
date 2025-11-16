@@ -11,29 +11,28 @@ from concurrent.futures.thread import ThreadPoolExecutor
 from typing import Optional
 import uuid
 
-from .execution.helpers import HelperManager
-from .execution.microservice import MicroserviceDirectory
-from .execution.report import ReportWriter
-from .execution.project import MicroservicesProject
 from .llm.langgraph.checkpoints import CheckpointStorage
-from .llm.langgraph.decision.models import RefactoringDecision
-from .llm.langgraph.decision.printer import ConsolePrinter
-from .llm.langgraph.decision.workflow import RefactDecisionWorkflow
 from .llm.langchain.usage import CallbackContext, GlobalUsageTracker
+from .helpers import HelperManager
 from .models import Decomposition, UpdatedDecomposition
-from .preprocessing.preprocessing import DecompositionPreprocessor
-from .modeling.model import AppModel
-from .modeling.local import LocalAnalysis
+from .const import ApproachType, RefactoringMethod
+from .project import MicroservicesProject
+from .microservice import MicroserviceDirectory
+from .analysis import AppModel, LocalAnalysis
+from .planning.preprocessing import DecompositionPreprocessor
 from .planning.proxies import ProxyPlanner, PlannedAPIClass
 from .planning.dependencies import DependencyDetector, APIClass
-from .gen.models import NewFile
-from .gen.refact import Refact
-from .gen.graph.grpc.id.agent import IDRefactAgent
-from .gen.graph.grpc.dto.agent import DTORefactAgent
+from .decision.models import RefactoringDecision
+from .decision.printer import ConsolePrinter
+from .decision.workflow import RefactDecisionWorkflow
+from .generation.models import NewFile
+from .generation.refact import Refact
+from .generation.grpc.id.agent import IDRefactAgent
+from .generation.grpc.dto.agent import DTORefactAgent
 from .validation.compilation import CompilationRunner
-from .validation.correction.workflow import CompilationCorrectionWorkflow
+from .validation.correction import CompilationCorrectionWorkflow
 from .validation.docker import MicroserviceDocker
-from .const import ApproachType, RefactoringMethod
+from .report import ReportWriter
 
 
 class MonoMorph:

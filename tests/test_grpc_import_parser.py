@@ -3,14 +3,12 @@ import tempfile
 import pathlib
 import os
 import subprocess
-import logging
-import time
 from typing import Dict, Optional
 
 import grpc
 
 # Adjust if necessary
-from monomorph.execution.imports.grpc import GrpcRefactorClient
+from monomorph.assembly.imports.grpc import GrpcRefactorClient
 from .import_test_examples import *
 
 

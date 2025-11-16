@@ -3,9 +3,8 @@ from typing import Callable
 from typing_extensions import TypedDict
 from langchain_core.messages import AIMessage
 from langchain_openai.chat_models.base import BaseChatOpenAI
-from langgraph.graph import MessagesState
 
-from ..llm.langgraph.decision.printer import ConsolePrinter
+from ..decision.printer import ConsolePrinter
 
 
 def create_call_model_function(model_or_callback: BaseChatOpenAI | Callable, callback_func: Callable, task_str: str,

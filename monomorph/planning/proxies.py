@@ -1,9 +1,9 @@
 import logging
 import re
-from typing import Literal, Optional
+from typing import Optional
 
-from ..execution.helpers import HelperManager
-from ..modeling.model import AppModel
+from monomorph.helpers import HelperManager
+from ..analysis.model import AppModel
 from ..planning.dependencies import APIClass
 from ..const import ApproachType, RefactoringMethod
 
