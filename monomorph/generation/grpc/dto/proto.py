@@ -3,8 +3,8 @@ from typing import Optional
 
 from langchain_core.tools import BaseTool
 
+from .prompts import LangChainDTOgRPCProtoPrompt
 from ....helpers import HelperManager
-from ....llm.langchain.prompts.dto_grpc_proto import LangChainDTOgRPCProtoPrompt
 from ....llm.models import Class
 from ...type import TypeGenState
 from ...models import ProtoSolution

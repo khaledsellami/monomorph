@@ -3,8 +3,8 @@ from typing import Optional, Any
 
 from langchain_core.tools import BaseTool
 
+from .prompts import LangChainIDgRPCServerPrompt
 from ....helpers import HelperManager
-from ....llm.langchain.prompts import LangChainIDgRPCServerPrompt
 from ....llm.models import Class
 from ....planning.proxies import PlannedAPIClass
 from ...type import TypeGenAgent, TypeGenState

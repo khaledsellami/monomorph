@@ -3,9 +3,9 @@ from typing import Optional, Any
 
 from langchain_core.tools import BaseTool
 
+from .prompts import LangChainIDgRPCProtoPrompt
 from ....const import PROTO_PATH
 from ....helpers import HelperManager
-from ....llm.langchain.prompts import LangChainIDgRPCProtoPrompt
 from ....llm.models import Class
 from ....planning.proxies import PlannedAPIClass
 from ...type import TypeGenAgent, TypeGenState

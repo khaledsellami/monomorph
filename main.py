@@ -16,9 +16,7 @@ from monomorph.assembly.entrypoint import EntryPointGenerator
 from monomorph.llm.tracking.checkpoints import CheckpointStorage
 from monomorph.models import Decomposition
 from monomorph.monomorph import MonoMorph
-from monomorph.llm.langchain.prompts import (
-    LangChainGrpcParsingPrompt,
-    LangChainProtoParsingPrompt,
+from monomorph.generation.grpc.id.prompts import (
     LangChainIDgRPCProtoPrompt,
     LangChainIDgRPCServerPrompt,
     LangChainIDgRPCClientPrompt
@@ -107,8 +105,6 @@ def save_experiment_metadata(monomorph_run: MonoMorph, args: Namespace, start_ti
             "monomorph_version": __version__,
             "analysis_version": __analysis_version__,
             "importparser_version": __importparser_version__,
-            "LangChainProtoParsingPrompt_version": LangChainProtoParsingPrompt.VERSION,
-            "LangChainGrpcParsingPrompt_version": LangChainGrpcParsingPrompt.VERSION,
             "LangChainIDgRPCProtoPrompt_version": LangChainIDgRPCProtoPrompt.VERSION,
             "LangChainIDgRPCServerPrompt_version": LangChainIDgRPCServerPrompt.VERSION,
             "LangChainIDgRPCClientPrompt_version": LangChainIDgRPCClientPrompt.VERSION,

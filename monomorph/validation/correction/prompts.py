@@ -1,8 +1,8 @@
 import importlib.resources
 
 from ..._metadata import PACKAGE_NAME
-from ...llm.langchain.prompts.prompt import Jinja2Prompt
-from monomorph.llm.models import LANGUAGE_MAP
+from ...llm.prompt import Jinja2Prompt
+from ...llm.models import LANGUAGE_MAP
 
 
 class CompilationCorrectionPrompt(Jinja2Prompt):

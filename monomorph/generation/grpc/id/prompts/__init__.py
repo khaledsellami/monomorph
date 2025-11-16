@@ -1,5 +1,3 @@
 from .id_grpc_proto import LangChainIDgRPCProtoPrompt
 from .id_grpc_server import LangChainIDgRPCServerPrompt
 from .id_grpc_client import LangChainIDgRPCClientPrompt
-from .proto_parsing import LangChainProtoParsingPrompt
-from .grpc_parsing import LangChainGrpcParsingPrompt
