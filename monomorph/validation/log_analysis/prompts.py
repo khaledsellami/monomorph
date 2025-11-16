@@ -1,6 +1,5 @@
 import importlib.resources
 
-from ..._metadata import PACKAGE_NAME
 from ...llm.prompt import Jinja2Prompt
 from ...llm.models import LANGUAGE_MAP
 from .models import CompilationAnalysisReport
@@ -12,8 +11,6 @@ class CompilationLogAnalysisPrompt(Jinja2Prompt):
     """
     BASENAME = "compilation_correcting"
     VERSION = "0.0.2"
-    PROMPT_TEMPLATE = f"compilation_correcting_template-{VERSION}.md"
-    TEMPLATES_PATH = f'{PACKAGE_NAME}.resources.prompts.templates.compilation_correcting'
 
     def __init__(self, logs: str, package_name: str, current_microservice: str = "ms1", language: str = "java",
                  **kwargs):
@@ -29,7 +26,6 @@ class CompilationLogAnalysisPrompt(Jinja2Prompt):
 {compilation_logs}
 ```
         """
-        self.template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.PROMPT_TEMPLATE)
 
     def generate_prompt(self) -> str:
         return self.USER_PROMPT_TEMPLATE.format(compilation_logs=self.logs)

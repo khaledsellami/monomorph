@@ -1,7 +1,7 @@
+import importlib.resources
 import logging
 
 from langchain.prompts import PromptTemplate
-
 from jinja2 import Environment, BaseLoader
 
 
@@ -31,6 +31,8 @@ class LangChainPrompt:
 
 class Jinja2Prompt(LangChainPrompt):
     """Jinja2 prompt template."""
+    VERSION = "0.0.1"
+    SYSTEM_VERSION = "0.0.1"
 
     def __init__(self):
         super().__init__()
@@ -39,8 +41,11 @@ class Jinja2Prompt(LangChainPrompt):
             trim_blocks=True,
             lstrip_blocks=True,
         )
-        self.template_path = None
-        self.system_template_path = None
+        self.PROMPT_TEMPLATE = f"{self.BASENAME}_template-{self.VERSION}.md"
+        self.SYSTEM_PROMPT_TEMPLATE = f"system-{self.BASENAME}_template-{self.SYSTEM_VERSION}.md"
+        self.TEMPLATES_PATH = f'monomorph.resources.prompts.templates.{self.BASENAME}'
+        self.template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.PROMPT_TEMPLATE)
+        self.system_template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.SYSTEM_PROMPT_TEMPLATE)
 
     def render_prompt(self, **kwargs) -> str:
         """Generate the prompt using Jinja2."""

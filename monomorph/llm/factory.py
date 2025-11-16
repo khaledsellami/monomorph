@@ -6,18 +6,17 @@ from typing import Optional, Callable, Type
 from langchain_openai.chat_models.base import BaseChatOpenAI
 from pydantic import BaseModel
 
-from .._metadata import PACKAGE_NAME
 from .custom_chat import (OpenRouterChat, AzureFoundryChat, GeminiChat, create_class_with_checkpoint,
                           create_class_with_fallback)
 from .tracking.usage import CallbackContext
 
 
-with importlib.resources.open_text(f'{PACKAGE_NAME}.resources', f'model_map.json') as f:
+with importlib.resources.open_text('monomorph.resources', f'model_map.json') as f:
     MODEL_MAP = json.load(f)
 
 
 def get_model(name: str, block_paid_api: bool = True) -> str:
-    logger = logging.getLogger(PACKAGE_NAME)
+    logger = logging.getLogger("monomorph")
     if name in MODEL_MAP["free"]:
         full_name = MODEL_MAP["free"].get(name)
     elif name in MODEL_MAP["paid"]:

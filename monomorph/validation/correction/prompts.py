@@ -1,6 +1,3 @@
-import importlib.resources
-
-from ..._metadata import PACKAGE_NAME
 from ...llm.prompt import Jinja2Prompt
 from ...llm.models import LANGUAGE_MAP
 
@@ -11,8 +8,6 @@ class CompilationCorrectionPrompt(Jinja2Prompt):
     """
     BASENAME = "compilation_correcting_impl"
     VERSION = "0.0.2"
-    PROMPT_TEMPLATE = f"compilation_correcting_impl_template-{VERSION}.md"
-    TEMPLATES_PATH = f'{PACKAGE_NAME}.resources.prompts.templates.compilation_correcting_impl'
 
     def __init__(self, logs: str, package_name: str, current_microservice: str = "ms1",
                  language: str = "java", **kwargs):
@@ -21,7 +16,6 @@ class CompilationCorrectionPrompt(Jinja2Prompt):
         self.current_microservice = current_microservice
         self.package_name = package_name
         self.logs = logs
-        self.template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.PROMPT_TEMPLATE)
 
     def generate_prompt(self) -> str:
         # user_prompt = f"""
@@ -60,8 +54,6 @@ class ExpertPrompt(Jinja2Prompt):
     """
     BASENAME = "compilation_correcting_expert"
     VERSION = "0.0.1"
-    PROMPT_TEMPLATE = f"{BASENAME}_template-{VERSION}.md"
-    TEMPLATES_PATH = f'{PACKAGE_NAME}.resources.prompts.templates.{BASENAME}'
 
     def __init__(self, package_name: str, current_microservice: str = "ms1",
                  language: str = "java", **kwargs):
@@ -69,7 +61,6 @@ class ExpertPrompt(Jinja2Prompt):
         self.language = LANGUAGE_MAP[language]
         self.current_microservice = current_microservice
         self.package_name = package_name
-        self.template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.PROMPT_TEMPLATE)
 
     def generate_prompt(self) -> str:
         return ""

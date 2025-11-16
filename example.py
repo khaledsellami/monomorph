@@ -21,7 +21,7 @@ def example():
         java_version=java_version,
         build_tool=build_tool,
         original_dockerfile_path=f"./examples/{app}/Dockerfile",
-        refact_approach="Hybrid",
+        refact_approach="ID-only",
         refact_model="mm_google/gemini-2.5-flash::low",
         parser_model="mm_google/gemini-2.5-flash::low",
         decision_model="mm_google/gemini-2.5-flash::low",
@@ -31,7 +31,7 @@ def example():
         restrictive=True,
         use_llm_cache=True,
         reset_cache=False,
-        use_multithreading=True
+        use_multithreading=False
     )
     return mono_refact
 

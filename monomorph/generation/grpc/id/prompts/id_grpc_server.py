@@ -1,18 +1,13 @@
-import importlib.resources
 from typing import Optional
 
 from .....llm.prompt import Jinja2Prompt
 from .....llm.models import LANGUAGE_MAP, Class
-from ....._metadata import PACKAGE_NAME
 
 
 class LangChainIDgRPCServerPrompt(Jinja2Prompt):
     BASENAME = "using_id_grpc_server"
     VERSION = "0.1.3"
     SYSTEM_VERSION = "0.0.1"
-    PROMPT_TEMPLATE = f"using_id_grpc_server_template-{VERSION}.md"
-    SYSTEM_PROMPT_TEMPLATE = f"system-using_id_grpc_server_template-{SYSTEM_VERSION}.md"
-    TEMPLATES_PATH = f'{PACKAGE_NAME}.resources.prompts.templates.using_id_grpc_server'
 
     def __init__(self, proto_prompt: str, proto_response: str, class_id_registry_full_name: str, server_template: Class,
                  mapper_class: Class | None = None, id_class: Class | None = None, id_only: bool = True,
@@ -29,8 +24,6 @@ class LangChainIDgRPCServerPrompt(Jinja2Prompt):
         self.current_microservice = current_microservice
         self.references_mapping = references_mapping
         self.class_id_registry_full_name = class_id_registry_full_name
-        self.template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.PROMPT_TEMPLATE)
-        self.system_template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.SYSTEM_PROMPT_TEMPLATE)
 
     def generate_prompt(self) -> str:
         kwargs = dict(
