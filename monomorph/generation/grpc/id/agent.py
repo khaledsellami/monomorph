@@ -9,7 +9,7 @@ from ...utils import format_messages
 from ...models import NewFile
 from ....helpers import HelperManager
 from ....llm.models import Class
-from ....llm.langchain.usage import CallbackContext
+from ....llm.tracking.usage import CallbackContext
 from ....analysis.model import AppModel
 from ....planning.proxies import PlannedAPIClass
 

@@ -6,7 +6,7 @@ from langgraph.graph import MessagesState
 
 from .models import RefactoringDecision
 from ..logging.printer import ConsolePrinter
-from ..llm.langchain.usage import UsageCallbackHandler
+from ..llm.tracking.usage import UsageCallbackHandler
 
 logger = ConsolePrinter.get_printer("monomorph")
 

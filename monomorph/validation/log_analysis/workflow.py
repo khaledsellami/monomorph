@@ -18,7 +18,7 @@ from ..utils import compile_generated_classes_files
 from ...helpers import HelperManager
 from ...microservice import MicroserviceDirectory
 from ...generation.prompts import PARSING_SYSTEM_PROMPT_TEMPLATE
-from ...llm.langchain.usage import CallbackContext, UsageCallbackHandler
+from ...llm.tracking.usage import CallbackContext, UsageCallbackHandler
 from ...llm.langgraph.utils import init_model
 from ...analysis.model import AppModel
 from ...logging.printer import ConsolePrinter

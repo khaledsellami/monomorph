@@ -4,7 +4,7 @@ import pickle
 import datetime
 import logging
 import re
-from typing import Any, Dict, Optional, List, Sequence, Literal, Union
+from typing import Any, Dict, Optional, List, Sequence
 from pathlib import Path
 from dataclasses import asdict, dataclass
 
@@ -13,8 +13,8 @@ from langchain_core.messages import BaseMessage, HumanMessage, AIMessage, System
     MessageLikeRepresentation, ToolMessage
 from langchain_core.prompt_values import PromptValue
 
-from ..langchain.usage import CallbackContext
-from ...validation.compilation import CompilationLogComparator
+from .usage import CallbackContext
+from .compare import CompilationLogComparator
 
 
 @dataclass

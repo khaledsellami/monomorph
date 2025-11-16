@@ -13,7 +13,7 @@ import colorlog
 
 from monomorph import __version__, __analysis_version__, __importparser_version__
 from monomorph.assembly.entrypoint import EntryPointGenerator
-from monomorph.llm.langgraph.checkpoints import CheckpointStorage
+from monomorph.llm.tracking.checkpoints import CheckpointStorage
 from monomorph.models import Decomposition
 from monomorph.monomorph import MonoMorph
 from monomorph.llm.langchain.prompts import (

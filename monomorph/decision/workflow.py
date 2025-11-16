@@ -4,7 +4,7 @@ from typing import Optional
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage
 
 from ..logging.printer import ConsolePrinter
-from ..llm.langchain.usage import CallbackContext, UsageCallbackHandler
+from ..llm.tracking.usage import CallbackContext, UsageCallbackHandler
 from ..analysis import AppModel
 from ..models import UpdatedDecomposition
 from ..llm.langgraph.utils import init_model

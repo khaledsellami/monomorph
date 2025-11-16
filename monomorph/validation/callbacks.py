@@ -1,6 +1,6 @@
 from typing import Optional
 
-from ..llm.langchain.usage import UsageCallbackHandler
+from ..llm.tracking.usage import UsageCallbackHandler
 
 
 class ValidationCallBackHandler:

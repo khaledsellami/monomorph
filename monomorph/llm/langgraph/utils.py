@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 from ..langchain.openrouter import (OpenRouterChat, create_class_with_checkpoint, AzureFoundryChat, GeminiChat,
                                     create_class_with_fallback)
-from ..langchain.usage import CallbackContext
+from ...llm.tracking.usage import CallbackContext
 from ..utils import get_model
 
 
