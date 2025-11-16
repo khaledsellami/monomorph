@@ -7,7 +7,7 @@ from ..logging.printer import ConsolePrinter
 from ..llm.tracking.usage import CallbackContext, UsageCallbackHandler
 from ..analysis import AppModel
 from ..models import UpdatedDecomposition
-from ..llm.langgraph.utils import init_model
+from ..llm.factory import init_model
 from .nodes import DecisionCallBackHandler
 from .tools import AnalysisTools
 from .graph import create_refact_decision_graph

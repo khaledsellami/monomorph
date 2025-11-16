@@ -5,13 +5,12 @@ from langchain_core.tools import BaseTool
 
 from ....const import PROTO_PATH
 from ....helpers import HelperManager
-from ....llm.langchain.output import ProtoSolution
 from ....llm.langchain.prompts import LangChainIDgRPCProtoPrompt
 from ....llm.models import Class
 from ....planning.proxies import PlannedAPIClass
 from ...type import TypeGenAgent, TypeGenState
 from ...utils import get_referenced_class_mapping
-from ...models import NewFile
+from ...models import NewFile, ProtoSolution
 
 
 class IDProtoGenAgent(TypeGenAgent):

@@ -15,7 +15,7 @@ from pydantic import BaseModel
 from .prompts import PARSING_SYSTEM_PROMPT_TEMPLATE
 from ..logging.printer import ConsolePrinter
 from ..llm.tracking.usage import CallbackContext
-from ..llm.langgraph.utils import init_model
+from ..llm.factory import init_model
 
 
 class CodeGenState(MessagesState):

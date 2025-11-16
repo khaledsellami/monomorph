@@ -19,7 +19,7 @@ from ...helpers import HelperManager
 from ...microservice import MicroserviceDirectory
 from ...generation.prompts import PARSING_SYSTEM_PROMPT_TEMPLATE
 from ...llm.tracking.usage import CallbackContext, UsageCallbackHandler
-from ...llm.langgraph.utils import init_model
+from ...llm.factory import init_model
 from ...analysis.model import AppModel
 from ...logging.printer import ConsolePrinter
 from ...logging.utils import log_inputs, log_outputs, create_conversation_log

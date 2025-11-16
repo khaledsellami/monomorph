@@ -9,8 +9,7 @@ from typing import Optional
 
 from .helpers import HelperManager
 from .models import UpdatedPartition
-from .generation.models import NewFile
-from .llm.langchain.output import ProtoSolution, GRPCSolution2
+from .generation.models import NewFile, ProtoSolution, GRPCSolution2
 from .assembly.entrypoint import EntryPointGenerator
 
 

@@ -4,10 +4,10 @@ from typing import Optional
 from langchain_core.tools import BaseTool
 
 from ....helpers import HelperManager
-from ....llm.langchain.output import ProtoSolution
 from ....llm.langchain.prompts.dto_grpc_proto import LangChainDTOgRPCProtoPrompt
 from ....llm.models import Class
 from ...type import TypeGenState
+from ...models import ProtoSolution
 from ...utils import get_referenced_class_mapping
 from ..id.proto import IDProtoGenAgent
 

@@ -4,11 +4,10 @@ from typing import Optional, Any
 from langchain_core.tools import BaseTool
 
 from ..id.client import IDClientGenAgent
-from ...models import NewFile
+from ...models import NewFile, GRPCSolution2
 from ...type import TypeGenState
 from ...utils import get_referenced_class_mapping
 from ....helpers import HelperManager
-from ....llm.langchain.output import GRPCSolution2
 from ....llm.langchain.prompts.dto_grpc_client import LangChainDTOgRPCClientPrompt
 from ....llm.models import Class
 

@@ -15,7 +15,7 @@ from ...helpers import HelperManager
 from ...llm.tracking.usage import UsageCallbackHandler, CallbackContext
 from ...llm.tracking.checkpoints import CheckpointStorage
 from ...llm.tracking.compare import CompilationLogComparator
-from ...llm.langgraph.utils import init_model
+from ...llm.factory import init_model
 from ...microservice import MicroserviceDirectory
 from ...logging.utils import log_inputs, create_conversation_log, log_outputs
 from ...logging.printer import ConsolePrinter
