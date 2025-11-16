@@ -208,7 +208,7 @@ class MicroservicesProject:
                 if not class_info.get("full_name", False):
                     continue
                 class_name = class_info["full_name"].split(".")[-1]
-                original_name = class_info["original_name"].split(".")[-1]
+                original_name = class_info["original_class"].split(".")[-1]
                 if class_name in class_mapping:
                     self.logger.warning(f"Class {class_name} already exists in the mapping ({ms_uid} and "
                                         f"{class_mapping[class_name['ms_uid']]}).")
