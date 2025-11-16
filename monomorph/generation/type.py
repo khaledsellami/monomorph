@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 from .code import CodeGenInvoker
 from ..llm.langchain.usage import CallbackContext
-from ..decision.printer import ConsolePrinter
+from ..logging.printer import ConsolePrinter
 
 
 class TypeGenState(MessagesState):

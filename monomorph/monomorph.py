@@ -11,6 +11,7 @@ from concurrent.futures.thread import ThreadPoolExecutor
 from typing import Optional
 import uuid
 
+from .logging.printer import ConsolePrinter
 from .llm.langgraph.checkpoints import CheckpointStorage
 from .llm.langchain.usage import CallbackContext, GlobalUsageTracker
 from .helpers import HelperManager
@@ -23,7 +24,6 @@ from .planning.preprocessing import DecompositionPreprocessor
 from .planning.proxies import ProxyPlanner, PlannedAPIClass
 from .planning.dependencies import DependencyDetector, APIClass
 from .decision.models import RefactoringDecision
-from .decision.printer import ConsolePrinter
 from .decision.workflow import RefactDecisionWorkflow
 from .generation.models import NewFile
 from .generation.refact import Refact

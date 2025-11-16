@@ -16,8 +16,8 @@ from ...llm.langchain.usage import UsageCallbackHandler, CallbackContext
 from ...llm.langgraph.checkpoints import CheckpointStorage
 from ...llm.langgraph.utils import init_model
 from ...microservice import MicroserviceDirectory
-from ...utils import log_inputs, create_conversation_log, log_outputs
-from ...decision.printer import ConsolePrinter
+from ...logging.utils import log_inputs, create_conversation_log, log_outputs
+from ...logging.printer import ConsolePrinter
 from ..callbacks import ValidationCallBackHandler
 from ..common import create_stream_model_function, create_call_model_function
 from ..compilation import CompilationRunner, CompilationLogComparator

@@ -7,7 +7,7 @@ from decparsing import DataHandler
 from decparsing.analysis.analysisRuntimeClient import AnalysisRuntimeClient
 
 from .model import AppModel
-from ..utils import silence_all
+from ..logging.utils import silence_all
 
 
 class JsonModel(AppModel):

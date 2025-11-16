@@ -5,7 +5,7 @@ from langchain_openai.chat_models.base import BaseChatOpenAI
 from langgraph.graph import MessagesState
 
 from .models import RefactoringDecision
-from .printer import ConsolePrinter
+from ..logging.printer import ConsolePrinter
 from ..llm.langchain.usage import UsageCallbackHandler
 
 logger = ConsolePrinter.get_printer("monomorph")

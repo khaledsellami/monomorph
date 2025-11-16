@@ -6,7 +6,7 @@ import logging
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage, ToolMessage
 from langgraph.graph import MessagesState
 
-from .decision.printer import ConsolePrinter
+from .printer import ConsolePrinter
 
 
 @contextlib.contextmanager

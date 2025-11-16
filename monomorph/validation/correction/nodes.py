@@ -8,7 +8,7 @@ from langgraph.prebuilt import ToolNode
 from langmem.short_term import summarize_messages
 from typing_extensions import TypedDict
 
-from ...decision.printer import ConsolePrinter
+from ...logging.printer import ConsolePrinter
 
 logger = ConsolePrinter.get_printer("monomorph")
 

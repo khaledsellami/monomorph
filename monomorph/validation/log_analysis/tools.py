@@ -4,7 +4,7 @@ from pathlib import Path
 from langchain_core.tools import tool, BaseTool
 
 from ...decision.models import ClassNameInput
-from ...decision.printer import ConsolePrinter
+from ...logging.printer import ConsolePrinter
 from ...analysis.model import AppModel
 from ..utils import parse_docker_path
 

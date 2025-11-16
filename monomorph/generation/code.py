@@ -13,7 +13,7 @@ from openai import APITimeoutError, APIConnectionError
 from pydantic import BaseModel
 
 from .prompts import PARSING_SYSTEM_PROMPT_TEMPLATE
-from ..decision.printer import ConsolePrinter
+from ..logging.printer import ConsolePrinter
 from ..llm.langchain.usage import CallbackContext
 from ..llm.langgraph.utils import init_model
 

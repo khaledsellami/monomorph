@@ -7,7 +7,7 @@ from langgraph.graph import MessagesState
 from .models import CompilationAnalysisReport
 from ..common import create_call_model_function, create_stream_model_function
 from ..callbacks import ValidationCallBackHandler
-from ...decision.printer import ConsolePrinter
+from ...logging.printer import ConsolePrinter
 
 
 logger = ConsolePrinter.get_printer("monomorph")

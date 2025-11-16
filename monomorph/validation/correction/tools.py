@@ -7,7 +7,7 @@ from langchain_core.tools import BaseTool, tool
 
 from .context import ClassChangeHistory, ClassChange, FileContextManager
 from ..compilation import CompilationRunner
-from ...decision.printer import ConsolePrinter
+from ...logging.printer import ConsolePrinter
 from ..docker import MicroserviceDocker, MicroserviceDockerError
 from ..raaid import fuzzy_find_project_files
 from ..utils import parse_docker_path, is_binary_file, format_file_for_markdown, parse_find_details, \

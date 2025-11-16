@@ -19,10 +19,10 @@ from ...helpers import HelperManager
 from ...microservice import MicroserviceDirectory
 from ...generation.prompts import PARSING_SYSTEM_PROMPT_TEMPLATE
 from ...llm.langchain.usage import CallbackContext, UsageCallbackHandler
-from ...decision.printer import ConsolePrinter
 from ...llm.langgraph.utils import init_model
 from ...analysis.model import AppModel
-from ...utils import log_inputs, log_outputs, create_conversation_log
+from ...logging.printer import ConsolePrinter
+from ...logging.utils import log_inputs, log_outputs, create_conversation_log
 
 
 class CompilationAnalysisWorkflow:

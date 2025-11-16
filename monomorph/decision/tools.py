@@ -1,5 +1,4 @@
 import itertools
-import logging
 import re
 from collections import defaultdict
 from typing import Optional, Dict, List, Tuple
@@ -8,7 +7,7 @@ import pandas as pd
 from langchain_core.tools import tool, BaseTool
 
 from .models import ClassNameInput, MethodNameInput
-from .printer import ConsolePrinter
+from ..logging.printer import ConsolePrinter
 from ..analysis import AppModel
 from ..models import UpdatedDecomposition
 from ..planning.dependencies import DependencyDetector
