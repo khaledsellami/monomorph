@@ -41,9 +41,9 @@ class Jinja2Prompt(LangChainPrompt):
             trim_blocks=True,
             lstrip_blocks=True,
         )
-        self.PROMPT_TEMPLATE = f"{self.BASENAME}_template-{self.VERSION}.md"
-        self.SYSTEM_PROMPT_TEMPLATE = f"system-{self.BASENAME}_template-{self.SYSTEM_VERSION}.md"
-        self.TEMPLATES_PATH = f'monomorph.resources.prompts.templates.{self.BASENAME}'
+        self.PROMPT_TEMPLATE = f"{self.BASENAME}_template.md"
+        self.SYSTEM_PROMPT_TEMPLATE = f"system-{self.BASENAME}_template.md"
+        self.TEMPLATES_PATH = 'monomorph.resources.prompts.templates'
         self.template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.PROMPT_TEMPLATE)
         self.system_template_path = importlib.resources.files(self.TEMPLATES_PATH).joinpath(self.SYSTEM_PROMPT_TEMPLATE)
 
